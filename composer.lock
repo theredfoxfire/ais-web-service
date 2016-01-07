@@ -4,9 +4,1873 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "b4157a2fdf6356886d54907e1a239404",
-    "content-hash": "801f65d7e2382e83d339b0c1dc64d85e",
+    "hash": "836836a5ebbcf3112ed1983d381668fb",
+    "content-hash": "78317c15a69ae01addfb1f88bdc04492",
     "packages": [
+        {
+            "name": "ais/bimbinganbundle",
+            "version": "dev-master",
+            "target-dir": "Ais/BimbinganBundle",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/theredfoxfire/ais-bimbingan-bundle.git",
+                "reference": "15b82e164a274c3fe5da01c2148388d89a5bb040"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/theredfoxfire/ais-bimbingan-bundle/zipball/15b82e164a274c3fe5da01c2148388d89a5bb040",
+                "reference": "15b82e164a274c3fe5da01c2148388d89a5bb040",
+                "shasum": ""
+            },
+            "require": {
+                "doctrine/doctrine-bundle": "~1.4",
+                "doctrine/orm": "^2.4.8",
+                "friendsofsymfony/rest-bundle": "@dev",
+                "incenteev/composer-parameter-handler": "~2.0",
+                "ircmaxell/password-compat": "~1.0",
+                "jms/serializer-bundle": "@dev",
+                "leafo/scssphp": "~0.1.5",
+                "nelmio/api-doc-bundle": "@dev",
+                "patchwork/jsqueeze": "~1.0",
+                "php": ">=5.3.9",
+                "sensio/distribution-bundle": "~4.0",
+                "sensio/framework-extra-bundle": "^3.0.2",
+                "symfony/assetic-bundle": "~2.3",
+                "symfony/monolog-bundle": "~2.4",
+                "symfony/swiftmailer-bundle": "~2.3",
+                "symfony/symfony": "2.7.*",
+                "willdurand/rest-extra-bundle": "@dev"
+            },
+            "require-dev": {
+                "doctrine/doctrine-fixtures-bundle": "dev-master",
+                "guzzle/plugin": "3.7.*",
+                "liip/functional-test-bundle": "dev-master",
+                "phpunit/phpunit": "3.7.*",
+                "sensio/generator-bundle": "~2.3",
+                "symfony/phpunit-bridge": "~2.7"
+            },
+            "type": "symfony-bundle",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "0.0.1-dev"
+                }
+            },
+            "autoload": {
+                "psr-0": {
+                    "Ais\\BimbinganBundle": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Hasan Setiawan",
+                    "email": "vizzlearn@gmail.com"
+                }
+            ],
+            "description": "A bundle filled with Bimbingan",
+            "keywords": [
+                "Bimbingan Bundle"
+            ],
+            "time": "2015-12-22 12:55:01"
+        },
+        {
+            "name": "ais/daftarbundle",
+            "version": "dev-master",
+            "target-dir": "Ais/DaftarBundle",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/theredfoxfire/ais-daftar-bundle.git",
+                "reference": "39f87352d847f9b37faa3abb3fbc43407fb8430a"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/theredfoxfire/ais-daftar-bundle/zipball/39f87352d847f9b37faa3abb3fbc43407fb8430a",
+                "reference": "39f87352d847f9b37faa3abb3fbc43407fb8430a",
+                "shasum": ""
+            },
+            "require": {
+                "doctrine/doctrine-bundle": "~1.4",
+                "doctrine/orm": "^2.4.8",
+                "friendsofsymfony/rest-bundle": "@dev",
+                "incenteev/composer-parameter-handler": "~2.0",
+                "ircmaxell/password-compat": "~1.0",
+                "jms/serializer-bundle": "@dev",
+                "leafo/scssphp": "~0.1.5",
+                "nelmio/api-doc-bundle": "@dev",
+                "patchwork/jsqueeze": "~1.0",
+                "php": ">=5.3.9",
+                "sensio/distribution-bundle": "~4.0",
+                "sensio/framework-extra-bundle": "^3.0.2",
+                "symfony/assetic-bundle": "~2.3",
+                "symfony/monolog-bundle": "~2.4",
+                "symfony/swiftmailer-bundle": "~2.3",
+                "symfony/symfony": "2.7.*",
+                "willdurand/rest-extra-bundle": "@dev"
+            },
+            "require-dev": {
+                "doctrine/doctrine-fixtures-bundle": "dev-master",
+                "guzzle/plugin": "3.7.*",
+                "liip/functional-test-bundle": "dev-master",
+                "phpunit/phpunit": "3.7.*",
+                "sensio/generator-bundle": "~2.3",
+                "symfony/phpunit-bridge": "~2.7"
+            },
+            "type": "symfony-bundle",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "0.0.1-dev"
+                }
+            },
+            "autoload": {
+                "psr-0": {
+                    "Ais\\DaftarBundle": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Hasan Setiawan",
+                    "email": "vizzlearn@gmail.com"
+                }
+            ],
+            "description": "A bundle filled with Daftar",
+            "keywords": [
+                "Daftar Bundle"
+            ],
+            "time": "2015-12-21 08:51:04"
+        },
+        {
+            "name": "ais/dosenbundle",
+            "version": "dev-master",
+            "target-dir": "Ais/DosenBundle",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/theredfoxfire/ais-dosen-bundle.git",
+                "reference": "cc45d43f9d7cc29e7cfd71e46484a3e886829b7a"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/theredfoxfire/ais-dosen-bundle/zipball/cc45d43f9d7cc29e7cfd71e46484a3e886829b7a",
+                "reference": "cc45d43f9d7cc29e7cfd71e46484a3e886829b7a",
+                "shasum": ""
+            },
+            "require": {
+                "doctrine/doctrine-bundle": "~1.4",
+                "doctrine/orm": "^2.4.8",
+                "friendsofsymfony/rest-bundle": "@dev",
+                "incenteev/composer-parameter-handler": "~2.0",
+                "ircmaxell/password-compat": "~1.0",
+                "jms/serializer-bundle": "@dev",
+                "leafo/scssphp": "~0.1.5",
+                "nelmio/api-doc-bundle": "@dev",
+                "patchwork/jsqueeze": "~1.0",
+                "php": ">=5.3.9",
+                "sensio/distribution-bundle": "~4.0",
+                "sensio/framework-extra-bundle": "^3.0.2",
+                "symfony/assetic-bundle": "~2.3",
+                "symfony/monolog-bundle": "~2.4",
+                "symfony/swiftmailer-bundle": "~2.3",
+                "symfony/symfony": "2.7.*",
+                "willdurand/rest-extra-bundle": "@dev"
+            },
+            "require-dev": {
+                "doctrine/doctrine-fixtures-bundle": "dev-master",
+                "guzzle/plugin": "3.7.*",
+                "liip/functional-test-bundle": "dev-master",
+                "phpunit/phpunit": "3.7.*",
+                "sensio/generator-bundle": "~2.3",
+                "symfony/phpunit-bridge": "~2.7"
+            },
+            "type": "symfony-bundle",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "0.0.1-dev"
+                }
+            },
+            "autoload": {
+                "psr-0": {
+                    "Ais\\DosenBundle": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Hasan Setiawan",
+                    "email": "vizzlearn@gmail.com"
+                }
+            ],
+            "description": "A bundle filled with Dosen",
+            "keywords": [
+                "Dosen Bundle"
+            ],
+            "time": "2015-12-21 09:56:04"
+        },
+        {
+            "name": "ais/gedungbundle",
+            "version": "dev-master",
+            "target-dir": "Ais/GedungBundle",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/theredfoxfire/ais-gedung-bundle.git",
+                "reference": "25e71896d5e91841bd1c5b4abffb8db882112a10"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/theredfoxfire/ais-gedung-bundle/zipball/25e71896d5e91841bd1c5b4abffb8db882112a10",
+                "reference": "25e71896d5e91841bd1c5b4abffb8db882112a10",
+                "shasum": ""
+            },
+            "require": {
+                "doctrine/doctrine-bundle": "~1.4",
+                "doctrine/orm": "^2.4.8",
+                "friendsofsymfony/rest-bundle": "@dev",
+                "incenteev/composer-parameter-handler": "~2.0",
+                "ircmaxell/password-compat": "~1.0",
+                "jms/serializer-bundle": "@dev",
+                "leafo/scssphp": "~0.1.5",
+                "nelmio/api-doc-bundle": "@dev",
+                "patchwork/jsqueeze": "~1.0",
+                "php": ">=5.3.9",
+                "sensio/distribution-bundle": "~4.0",
+                "sensio/framework-extra-bundle": "^3.0.2",
+                "symfony/assetic-bundle": "~2.3",
+                "symfony/monolog-bundle": "~2.4",
+                "symfony/swiftmailer-bundle": "~2.3",
+                "symfony/symfony": "2.7.*",
+                "willdurand/rest-extra-bundle": "@dev"
+            },
+            "require-dev": {
+                "doctrine/doctrine-fixtures-bundle": "dev-master",
+                "guzzle/plugin": "3.7.*",
+                "liip/functional-test-bundle": "dev-master",
+                "phpunit/phpunit": "3.7.*",
+                "sensio/generator-bundle": "~2.3",
+                "symfony/phpunit-bridge": "~2.7"
+            },
+            "type": "symfony-bundle",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "0.0.1-dev"
+                }
+            },
+            "autoload": {
+                "psr-0": {
+                    "Ais\\GedungBundle": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Hasan Setiawan",
+                    "email": "vizzlearn@gmail.com"
+                }
+            ],
+            "description": "A bundle filled with Gedung",
+            "keywords": [
+                "Gedung Bundle"
+            ],
+            "time": "2015-12-22 07:03:46"
+        },
+        {
+            "name": "ais/haribundle",
+            "version": "dev-master",
+            "target-dir": "Ais/HariBundle",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/theredfoxfire/ais-hari-bundle.git",
+                "reference": "a05176f4041538f8e1d2a5f8c6b16b00cf9390e9"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/theredfoxfire/ais-hari-bundle/zipball/a05176f4041538f8e1d2a5f8c6b16b00cf9390e9",
+                "reference": "a05176f4041538f8e1d2a5f8c6b16b00cf9390e9",
+                "shasum": ""
+            },
+            "require": {
+                "doctrine/doctrine-bundle": "~1.4",
+                "doctrine/orm": "^2.4.8",
+                "friendsofsymfony/rest-bundle": "@dev",
+                "incenteev/composer-parameter-handler": "~2.0",
+                "ircmaxell/password-compat": "~1.0",
+                "jms/serializer-bundle": "@dev",
+                "leafo/scssphp": "~0.1.5",
+                "nelmio/api-doc-bundle": "@dev",
+                "patchwork/jsqueeze": "~1.0",
+                "php": ">=5.3.9",
+                "sensio/distribution-bundle": "~4.0",
+                "sensio/framework-extra-bundle": "^3.0.2",
+                "symfony/assetic-bundle": "~2.3",
+                "symfony/monolog-bundle": "~2.4",
+                "symfony/swiftmailer-bundle": "~2.3",
+                "symfony/symfony": "2.7.*",
+                "willdurand/rest-extra-bundle": "@dev"
+            },
+            "require-dev": {
+                "doctrine/doctrine-fixtures-bundle": "dev-master",
+                "guzzle/plugin": "3.7.*",
+                "liip/functional-test-bundle": "dev-master",
+                "phpunit/phpunit": "3.7.*",
+                "sensio/generator-bundle": "~2.3",
+                "symfony/phpunit-bridge": "~2.7"
+            },
+            "type": "symfony-bundle",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "0.0.1-dev"
+                }
+            },
+            "autoload": {
+                "psr-0": {
+                    "Ais\\HariBundle": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Hasan Setiawan",
+                    "email": "vizzlearn@gmail.com"
+                }
+            ],
+            "description": "A bundle filled with Hari",
+            "keywords": [
+                "Hari Bundle"
+            ],
+            "time": "2015-12-22 07:37:18"
+        },
+        {
+            "name": "ais/ijasahsmabundle",
+            "version": "dev-master",
+            "target-dir": "Ais/IjasahSmaBundle",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/theredfoxfire/ais-ijasah-sma-bundle.git",
+                "reference": "b94e5fb4adce2003c66848a9ef208f4c4a517191"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/theredfoxfire/ais-ijasah-sma-bundle/zipball/b94e5fb4adce2003c66848a9ef208f4c4a517191",
+                "reference": "b94e5fb4adce2003c66848a9ef208f4c4a517191",
+                "shasum": ""
+            },
+            "require": {
+                "doctrine/doctrine-bundle": "~1.4",
+                "doctrine/orm": "^2.4.8",
+                "friendsofsymfony/rest-bundle": "@dev",
+                "incenteev/composer-parameter-handler": "~2.0",
+                "ircmaxell/password-compat": "~1.0",
+                "jms/serializer-bundle": "@dev",
+                "leafo/scssphp": "~0.1.5",
+                "nelmio/api-doc-bundle": "@dev",
+                "patchwork/jsqueeze": "~1.0",
+                "php": ">=5.3.9",
+                "sensio/distribution-bundle": "~4.0",
+                "sensio/framework-extra-bundle": "^3.0.2",
+                "symfony/assetic-bundle": "~2.3",
+                "symfony/monolog-bundle": "~2.4",
+                "symfony/swiftmailer-bundle": "~2.3",
+                "symfony/symfony": "2.7.*",
+                "willdurand/rest-extra-bundle": "@dev"
+            },
+            "require-dev": {
+                "doctrine/doctrine-fixtures-bundle": "dev-master",
+                "guzzle/plugin": "3.7.*",
+                "liip/functional-test-bundle": "dev-master",
+                "phpunit/phpunit": "3.7.*",
+                "sensio/generator-bundle": "~2.3",
+                "symfony/phpunit-bridge": "~2.7"
+            },
+            "type": "symfony-bundle",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "0.0.1-dev"
+                }
+            },
+            "autoload": {
+                "psr-0": {
+                    "Ais\\IjasahSmaBundle": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Hasan Setiawan",
+                    "email": "vizzlearn@gmail.com"
+                }
+            ],
+            "description": "A bundle filled with IjasahSma",
+            "keywords": [
+                "IjasahSma Bundle"
+            ],
+            "time": "2015-12-22 12:57:36"
+        },
+        {
+            "name": "ais/jadwalbundle",
+            "version": "dev-master",
+            "target-dir": "Ais/JadwalBundle",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/theredfoxfire/ais-jadwal-bundle.git",
+                "reference": "dd2a3aac4fa32d265ade6eda9441a0ff872cc2b7"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/theredfoxfire/ais-jadwal-bundle/zipball/dd2a3aac4fa32d265ade6eda9441a0ff872cc2b7",
+                "reference": "dd2a3aac4fa32d265ade6eda9441a0ff872cc2b7",
+                "shasum": ""
+            },
+            "require": {
+                "doctrine/doctrine-bundle": "~1.4",
+                "doctrine/orm": "^2.4.8",
+                "friendsofsymfony/rest-bundle": "@dev",
+                "incenteev/composer-parameter-handler": "~2.0",
+                "ircmaxell/password-compat": "~1.0",
+                "jms/serializer-bundle": "@dev",
+                "leafo/scssphp": "~0.1.5",
+                "nelmio/api-doc-bundle": "@dev",
+                "patchwork/jsqueeze": "~1.0",
+                "php": ">=5.3.9",
+                "sensio/distribution-bundle": "~4.0",
+                "sensio/framework-extra-bundle": "^3.0.2",
+                "symfony/assetic-bundle": "~2.3",
+                "symfony/monolog-bundle": "~2.4",
+                "symfony/swiftmailer-bundle": "~2.3",
+                "symfony/symfony": "2.7.*",
+                "willdurand/rest-extra-bundle": "@dev"
+            },
+            "require-dev": {
+                "doctrine/doctrine-fixtures-bundle": "dev-master",
+                "guzzle/plugin": "3.7.*",
+                "liip/functional-test-bundle": "dev-master",
+                "phpunit/phpunit": "3.7.*",
+                "sensio/generator-bundle": "~2.3",
+                "symfony/phpunit-bridge": "~2.7"
+            },
+            "type": "symfony-bundle",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "0.0.1-dev"
+                }
+            },
+            "autoload": {
+                "psr-0": {
+                    "Ais\\JadwalBundle": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Hasan Setiawan",
+                    "email": "vizzlearn@gmail.com"
+                }
+            ],
+            "description": "A bundle filled with Jadwal",
+            "keywords": [
+                "Jadwal Bundle"
+            ],
+            "time": "2016-01-07 03:46:27"
+        },
+        {
+            "name": "ais/kabupatenbundle",
+            "version": "dev-master",
+            "target-dir": "Ais/KabupatenBundle",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/theredfoxfire/ais-kabupaten-bundle.git",
+                "reference": "e784dafd8df952fab349632b94ea074e1860ab48"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/theredfoxfire/ais-kabupaten-bundle/zipball/e784dafd8df952fab349632b94ea074e1860ab48",
+                "reference": "e784dafd8df952fab349632b94ea074e1860ab48",
+                "shasum": ""
+            },
+            "require": {
+                "doctrine/doctrine-bundle": "~1.4",
+                "doctrine/orm": "^2.4.8",
+                "friendsofsymfony/rest-bundle": "@dev",
+                "incenteev/composer-parameter-handler": "~2.0",
+                "ircmaxell/password-compat": "~1.0",
+                "jms/serializer-bundle": "@dev",
+                "leafo/scssphp": "~0.1.5",
+                "nelmio/api-doc-bundle": "@dev",
+                "patchwork/jsqueeze": "~1.0",
+                "php": ">=5.3.9",
+                "sensio/distribution-bundle": "~4.0",
+                "sensio/framework-extra-bundle": "^3.0.2",
+                "symfony/assetic-bundle": "~2.3",
+                "symfony/monolog-bundle": "~2.4",
+                "symfony/swiftmailer-bundle": "~2.3",
+                "symfony/symfony": "2.7.*",
+                "willdurand/rest-extra-bundle": "@dev"
+            },
+            "require-dev": {
+                "doctrine/doctrine-fixtures-bundle": "dev-master",
+                "guzzle/plugin": "3.7.*",
+                "liip/functional-test-bundle": "dev-master",
+                "phpunit/phpunit": "3.7.*",
+                "sensio/generator-bundle": "~2.3",
+                "symfony/phpunit-bridge": "~2.7"
+            },
+            "type": "symfony-bundle",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "0.0.1-dev"
+                }
+            },
+            "autoload": {
+                "psr-0": {
+                    "Ais\\KabupatenBundle": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Hasan Setiawan",
+                    "email": "vizzlearn@gmail.com"
+                }
+            ],
+            "description": "A bundle filled with Kabupaten",
+            "keywords": [
+                "Kabupaten Bundle"
+            ],
+            "time": "2015-12-22 13:01:25"
+        },
+        {
+            "name": "ais/kontrakdosenbundle",
+            "version": "dev-master",
+            "target-dir": "Ais/KontrakDosenBundle",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/theredfoxfire/ais-kontrak-dosen-bundle.git",
+                "reference": "813a5133e9a706936d52bebeaf1962627700de70"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/theredfoxfire/ais-kontrak-dosen-bundle/zipball/813a5133e9a706936d52bebeaf1962627700de70",
+                "reference": "813a5133e9a706936d52bebeaf1962627700de70",
+                "shasum": ""
+            },
+            "require": {
+                "doctrine/doctrine-bundle": "~1.4",
+                "doctrine/orm": "^2.4.8",
+                "friendsofsymfony/rest-bundle": "@dev",
+                "incenteev/composer-parameter-handler": "~2.0",
+                "ircmaxell/password-compat": "~1.0",
+                "jms/serializer-bundle": "@dev",
+                "leafo/scssphp": "~0.1.5",
+                "nelmio/api-doc-bundle": "@dev",
+                "patchwork/jsqueeze": "~1.0",
+                "php": ">=5.3.9",
+                "sensio/distribution-bundle": "~4.0",
+                "sensio/framework-extra-bundle": "^3.0.2",
+                "symfony/assetic-bundle": "~2.3",
+                "symfony/monolog-bundle": "~2.4",
+                "symfony/swiftmailer-bundle": "~2.3",
+                "symfony/symfony": "2.7.*",
+                "willdurand/rest-extra-bundle": "@dev"
+            },
+            "require-dev": {
+                "doctrine/doctrine-fixtures-bundle": "dev-master",
+                "guzzle/plugin": "3.7.*",
+                "liip/functional-test-bundle": "dev-master",
+                "phpunit/phpunit": "3.7.*",
+                "sensio/generator-bundle": "~2.3",
+                "symfony/phpunit-bridge": "~2.7"
+            },
+            "type": "symfony-bundle",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "0.0.1-dev"
+                }
+            },
+            "autoload": {
+                "psr-0": {
+                    "Ais\\KontrakDosenBundle": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Hasan Setiawan",
+                    "email": "vizzlearn@gmail.com"
+                }
+            ],
+            "description": "A bundle filled with KontrakDosen",
+            "keywords": [
+                "KontrakDosen Bundle"
+            ],
+            "time": "2015-12-22 13:03:27"
+        },
+        {
+            "name": "ais/kontrakmahasiswabundle",
+            "version": "dev-master",
+            "target-dir": "Ais/KontrakMahasiswaBundle",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/theredfoxfire/ais-kontrak-mahasiswa-bundle.git",
+                "reference": "351b2b6fc26087d93626f31d94575210497afdb6"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/theredfoxfire/ais-kontrak-mahasiswa-bundle/zipball/351b2b6fc26087d93626f31d94575210497afdb6",
+                "reference": "351b2b6fc26087d93626f31d94575210497afdb6",
+                "shasum": ""
+            },
+            "require": {
+                "doctrine/doctrine-bundle": "~1.4",
+                "doctrine/orm": "^2.4.8",
+                "friendsofsymfony/rest-bundle": "@dev",
+                "incenteev/composer-parameter-handler": "~2.0",
+                "ircmaxell/password-compat": "~1.0",
+                "jms/serializer-bundle": "@dev",
+                "leafo/scssphp": "~0.1.5",
+                "nelmio/api-doc-bundle": "@dev",
+                "patchwork/jsqueeze": "~1.0",
+                "php": ">=5.3.9",
+                "sensio/distribution-bundle": "~4.0",
+                "sensio/framework-extra-bundle": "^3.0.2",
+                "symfony/assetic-bundle": "~2.3",
+                "symfony/monolog-bundle": "~2.4",
+                "symfony/swiftmailer-bundle": "~2.3",
+                "symfony/symfony": "2.7.*",
+                "willdurand/rest-extra-bundle": "@dev"
+            },
+            "require-dev": {
+                "doctrine/doctrine-fixtures-bundle": "dev-master",
+                "guzzle/plugin": "3.7.*",
+                "liip/functional-test-bundle": "dev-master",
+                "phpunit/phpunit": "3.7.*",
+                "sensio/generator-bundle": "~2.3",
+                "symfony/phpunit-bridge": "~2.7"
+            },
+            "type": "symfony-bundle",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "0.0.1-dev"
+                }
+            },
+            "autoload": {
+                "psr-0": {
+                    "Ais\\KontrakMahasiswaBundle": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Hasan Setiawan",
+                    "email": "vizzlearn@gmail.com"
+                }
+            ],
+            "description": "A bundle filled with KontrakMahasiswa",
+            "keywords": [
+                "KontrakMahasiswa Bundle"
+            ],
+            "time": "2015-12-22 13:04:56"
+        },
+        {
+            "name": "ais/mahasiswabundle",
+            "version": "dev-master",
+            "target-dir": "Ais/MahasiswaBundle",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/theredfoxfire/ais-mahasiswa-bundle.git",
+                "reference": "d3ece170bdb5e14675046ba6945de8c557e91d42"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/theredfoxfire/ais-mahasiswa-bundle/zipball/d3ece170bdb5e14675046ba6945de8c557e91d42",
+                "reference": "d3ece170bdb5e14675046ba6945de8c557e91d42",
+                "shasum": ""
+            },
+            "require": {
+                "doctrine/doctrine-bundle": "~1.4",
+                "doctrine/orm": "^2.4.8",
+                "friendsofsymfony/rest-bundle": "@dev",
+                "incenteev/composer-parameter-handler": "~2.0",
+                "ircmaxell/password-compat": "~1.0",
+                "jms/serializer-bundle": "@dev",
+                "leafo/scssphp": "~0.1.5",
+                "nelmio/api-doc-bundle": "@dev",
+                "patchwork/jsqueeze": "~1.0",
+                "php": ">=5.3.9",
+                "sensio/distribution-bundle": "~4.0",
+                "sensio/framework-extra-bundle": "^3.0.2",
+                "symfony/assetic-bundle": "~2.3",
+                "symfony/monolog-bundle": "~2.4",
+                "symfony/swiftmailer-bundle": "~2.3",
+                "symfony/symfony": "2.7.*",
+                "willdurand/rest-extra-bundle": "@dev"
+            },
+            "require-dev": {
+                "doctrine/doctrine-fixtures-bundle": "dev-master",
+                "guzzle/plugin": "3.7.*",
+                "liip/functional-test-bundle": "dev-master",
+                "phpunit/phpunit": "3.7.*",
+                "sensio/generator-bundle": "~2.3",
+                "symfony/phpunit-bridge": "~2.7"
+            },
+            "type": "symfony-bundle",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "0.0.1-dev"
+                }
+            },
+            "autoload": {
+                "psr-0": {
+                    "Ais\\MahasiswaBundle": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Hasan Setiawan",
+                    "email": "vizzlearn@gmail.com"
+                }
+            ],
+            "description": "A bundle filled with Dosen",
+            "keywords": [
+                "Dosen Bundle"
+            ],
+            "time": "2016-01-07 04:03:18"
+        },
+        {
+            "name": "ais/mahasiswaprofilebundle",
+            "version": "dev-master",
+            "target-dir": "Ais/MahasiswaProfileBundle",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/theredfoxfire/ais-mahasiswa-profile-bundle.git",
+                "reference": "f1cef8aa1fe8f2d4e5097eca3fbb948bad2040d4"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/theredfoxfire/ais-mahasiswa-profile-bundle/zipball/f1cef8aa1fe8f2d4e5097eca3fbb948bad2040d4",
+                "reference": "f1cef8aa1fe8f2d4e5097eca3fbb948bad2040d4",
+                "shasum": ""
+            },
+            "require": {
+                "doctrine/doctrine-bundle": "~1.4",
+                "doctrine/orm": "^2.4.8",
+                "friendsofsymfony/rest-bundle": "@dev",
+                "incenteev/composer-parameter-handler": "~2.0",
+                "ircmaxell/password-compat": "~1.0",
+                "jms/serializer-bundle": "@dev",
+                "leafo/scssphp": "~0.1.5",
+                "nelmio/api-doc-bundle": "@dev",
+                "patchwork/jsqueeze": "~1.0",
+                "php": ">=5.3.9",
+                "sensio/distribution-bundle": "~4.0",
+                "sensio/framework-extra-bundle": "^3.0.2",
+                "symfony/assetic-bundle": "~2.3",
+                "symfony/monolog-bundle": "~2.4",
+                "symfony/swiftmailer-bundle": "~2.3",
+                "symfony/symfony": "2.7.*",
+                "willdurand/rest-extra-bundle": "@dev"
+            },
+            "require-dev": {
+                "doctrine/doctrine-fixtures-bundle": "dev-master",
+                "guzzle/plugin": "3.7.*",
+                "liip/functional-test-bundle": "dev-master",
+                "phpunit/phpunit": "3.7.*",
+                "sensio/generator-bundle": "~2.3",
+                "symfony/phpunit-bridge": "~2.7"
+            },
+            "type": "symfony-bundle",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "0.0.1-dev"
+                }
+            },
+            "autoload": {
+                "psr-0": {
+                    "Ais\\MahasiswaProfileBundle": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Hasan Setiawan",
+                    "email": "vizzlearn@gmail.com"
+                }
+            ],
+            "description": "A bundle filled with MahasiswaProfile",
+            "keywords": [
+                "MahasiswaProfile Bundle"
+            ],
+            "time": "2015-12-22 13:08:02"
+        },
+        {
+            "name": "ais/matakuliahbundle",
+            "version": "dev-master",
+            "target-dir": "Ais/MatakuliahBundle",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/theredfoxfire/ais-matakuliah-bundle.git",
+                "reference": "738c401afa3fd4699ae619bcbb82b8d1ae5ac00e"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/theredfoxfire/ais-matakuliah-bundle/zipball/738c401afa3fd4699ae619bcbb82b8d1ae5ac00e",
+                "reference": "738c401afa3fd4699ae619bcbb82b8d1ae5ac00e",
+                "shasum": ""
+            },
+            "require": {
+                "doctrine/doctrine-bundle": "~1.4",
+                "doctrine/orm": "^2.4.8",
+                "friendsofsymfony/rest-bundle": "@dev",
+                "incenteev/composer-parameter-handler": "~2.0",
+                "ircmaxell/password-compat": "~1.0",
+                "jms/serializer-bundle": "@dev",
+                "leafo/scssphp": "~0.1.5",
+                "nelmio/api-doc-bundle": "@dev",
+                "patchwork/jsqueeze": "~1.0",
+                "php": ">=5.3.9",
+                "sensio/distribution-bundle": "~4.0",
+                "sensio/framework-extra-bundle": "^3.0.2",
+                "symfony/assetic-bundle": "~2.3",
+                "symfony/monolog-bundle": "~2.4",
+                "symfony/swiftmailer-bundle": "~2.3",
+                "symfony/symfony": "2.7.*",
+                "willdurand/rest-extra-bundle": "@dev"
+            },
+            "require-dev": {
+                "doctrine/doctrine-fixtures-bundle": "dev-master",
+                "guzzle/plugin": "3.7.*",
+                "liip/functional-test-bundle": "dev-master",
+                "phpunit/phpunit": "3.7.*",
+                "sensio/generator-bundle": "~2.3",
+                "symfony/phpunit-bridge": "~2.7"
+            },
+            "type": "symfony-bundle",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "0.0.1-dev"
+                }
+            },
+            "autoload": {
+                "psr-0": {
+                    "Ais\\MatakuliahBundle": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Hasan Setiawan",
+                    "email": "vizzlearn@gmail.com"
+                }
+            ],
+            "description": "A bundle filled with Matakuliah entity",
+            "keywords": [
+                "Dosen Bundle"
+            ],
+            "time": "2016-01-07 04:14:17"
+        },
+        {
+            "name": "ais/pertemuanbundle",
+            "version": "dev-master",
+            "target-dir": "Ais/PertemuanBundle",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/theredfoxfire/ais-pertemuan-bundle.git",
+                "reference": "ce9b93a9e4158b92fad32189904bf27d7c6964b3"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/theredfoxfire/ais-pertemuan-bundle/zipball/ce9b93a9e4158b92fad32189904bf27d7c6964b3",
+                "reference": "ce9b93a9e4158b92fad32189904bf27d7c6964b3",
+                "shasum": ""
+            },
+            "require": {
+                "doctrine/doctrine-bundle": "~1.4",
+                "doctrine/orm": "^2.4.8",
+                "friendsofsymfony/rest-bundle": "@dev",
+                "incenteev/composer-parameter-handler": "~2.0",
+                "ircmaxell/password-compat": "~1.0",
+                "jms/serializer-bundle": "@dev",
+                "leafo/scssphp": "~0.1.5",
+                "nelmio/api-doc-bundle": "@dev",
+                "patchwork/jsqueeze": "~1.0",
+                "php": ">=5.3.9",
+                "sensio/distribution-bundle": "~4.0",
+                "sensio/framework-extra-bundle": "^3.0.2",
+                "symfony/assetic-bundle": "~2.3",
+                "symfony/monolog-bundle": "~2.4",
+                "symfony/swiftmailer-bundle": "~2.3",
+                "symfony/symfony": "2.7.*",
+                "willdurand/rest-extra-bundle": "@dev"
+            },
+            "require-dev": {
+                "doctrine/doctrine-fixtures-bundle": "dev-master",
+                "guzzle/plugin": "3.7.*",
+                "liip/functional-test-bundle": "dev-master",
+                "phpunit/phpunit": "3.7.*",
+                "sensio/generator-bundle": "~2.3",
+                "symfony/phpunit-bridge": "~2.7"
+            },
+            "type": "symfony-bundle",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "0.0.1-dev"
+                }
+            },
+            "autoload": {
+                "psr-0": {
+                    "Ais\\PertemuanBundle": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Hasan Setiawan",
+                    "email": "vizzlearn@gmail.com"
+                }
+            ],
+            "description": "A bundle filled with Pertemuan",
+            "keywords": [
+                "Pertemuan Bundle"
+            ],
+            "time": "2016-01-07 05:04:50"
+        },
+        {
+            "name": "ais/pertemuandosenbundle",
+            "version": "dev-master",
+            "target-dir": "Ais/PertemuanDosenBundle",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/theredfoxfire/ais-pertemuan-dosen-bundle.git",
+                "reference": "5dd2c0e6b2c8ee99ed10229057067a99ab485b7f"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/theredfoxfire/ais-pertemuan-dosen-bundle/zipball/5dd2c0e6b2c8ee99ed10229057067a99ab485b7f",
+                "reference": "5dd2c0e6b2c8ee99ed10229057067a99ab485b7f",
+                "shasum": ""
+            },
+            "require": {
+                "doctrine/doctrine-bundle": "~1.4",
+                "doctrine/orm": "^2.4.8",
+                "friendsofsymfony/rest-bundle": "@dev",
+                "incenteev/composer-parameter-handler": "~2.0",
+                "ircmaxell/password-compat": "~1.0",
+                "jms/serializer-bundle": "@dev",
+                "leafo/scssphp": "~0.1.5",
+                "nelmio/api-doc-bundle": "@dev",
+                "patchwork/jsqueeze": "~1.0",
+                "php": ">=5.3.9",
+                "sensio/distribution-bundle": "~4.0",
+                "sensio/framework-extra-bundle": "^3.0.2",
+                "symfony/assetic-bundle": "~2.3",
+                "symfony/monolog-bundle": "~2.4",
+                "symfony/swiftmailer-bundle": "~2.3",
+                "symfony/symfony": "2.7.*",
+                "willdurand/rest-extra-bundle": "@dev"
+            },
+            "require-dev": {
+                "doctrine/doctrine-fixtures-bundle": "dev-master",
+                "guzzle/plugin": "3.7.*",
+                "liip/functional-test-bundle": "dev-master",
+                "phpunit/phpunit": "3.7.*",
+                "sensio/generator-bundle": "~2.3",
+                "symfony/phpunit-bridge": "~2.7"
+            },
+            "type": "symfony-bundle",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "0.0.1-dev"
+                }
+            },
+            "autoload": {
+                "psr-0": {
+                    "Ais\\PertemuanDosenBundle": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Hasan Setiawan",
+                    "email": "vizzlearn@gmail.com"
+                }
+            ],
+            "description": "A bundle filled with PertemuanDosen",
+            "keywords": [
+                "PertemuanDosen Bundle"
+            ],
+            "time": "2015-12-22 12:43:46"
+        },
+        {
+            "name": "ais/pertemuanmahasiswabundle",
+            "version": "dev-master",
+            "target-dir": "Ais/PertemuanMahasiswaBundle",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/theredfoxfire/ais-pertemuan-mahasiswa-bundle.git",
+                "reference": "0491dce2c9b4cea2a7890f5c57dad695de1d5327"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/theredfoxfire/ais-pertemuan-mahasiswa-bundle/zipball/0491dce2c9b4cea2a7890f5c57dad695de1d5327",
+                "reference": "0491dce2c9b4cea2a7890f5c57dad695de1d5327",
+                "shasum": ""
+            },
+            "require": {
+                "doctrine/doctrine-bundle": "~1.4",
+                "doctrine/orm": "^2.4.8",
+                "friendsofsymfony/rest-bundle": "@dev",
+                "incenteev/composer-parameter-handler": "~2.0",
+                "ircmaxell/password-compat": "~1.0",
+                "jms/serializer-bundle": "@dev",
+                "leafo/scssphp": "~0.1.5",
+                "nelmio/api-doc-bundle": "@dev",
+                "patchwork/jsqueeze": "~1.0",
+                "php": ">=5.3.9",
+                "sensio/distribution-bundle": "~4.0",
+                "sensio/framework-extra-bundle": "^3.0.2",
+                "symfony/assetic-bundle": "~2.3",
+                "symfony/monolog-bundle": "~2.4",
+                "symfony/swiftmailer-bundle": "~2.3",
+                "symfony/symfony": "2.7.*",
+                "willdurand/rest-extra-bundle": "@dev"
+            },
+            "require-dev": {
+                "doctrine/doctrine-fixtures-bundle": "dev-master",
+                "guzzle/plugin": "3.7.*",
+                "liip/functional-test-bundle": "dev-master",
+                "phpunit/phpunit": "3.7.*",
+                "sensio/generator-bundle": "~2.3",
+                "symfony/phpunit-bridge": "~2.7"
+            },
+            "type": "symfony-bundle",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "0.0.1-dev"
+                }
+            },
+            "autoload": {
+                "psr-0": {
+                    "Ais\\PertemuanMahasiswaBundle": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Hasan Setiawan",
+                    "email": "vizzlearn@gmail.com"
+                }
+            ],
+            "description": "A bundle filled with PertemuanMahasiswa",
+            "keywords": [
+                "PertemuanMahasiswa Bundle"
+            ],
+            "time": "2015-12-22 12:45:20"
+        },
+        {
+            "name": "ais/pimpinanprodibundle",
+            "version": "dev-master",
+            "target-dir": "Ais/PimpinanProdiBundle",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/theredfoxfire/ais-pimpinan-prodi-bundle.git",
+                "reference": "b31c323900ca854918cab4e82834257daadd4c5d"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/theredfoxfire/ais-pimpinan-prodi-bundle/zipball/b31c323900ca854918cab4e82834257daadd4c5d",
+                "reference": "b31c323900ca854918cab4e82834257daadd4c5d",
+                "shasum": ""
+            },
+            "require": {
+                "doctrine/doctrine-bundle": "~1.4",
+                "doctrine/orm": "^2.4.8",
+                "friendsofsymfony/rest-bundle": "@dev",
+                "incenteev/composer-parameter-handler": "~2.0",
+                "ircmaxell/password-compat": "~1.0",
+                "jms/serializer-bundle": "@dev",
+                "leafo/scssphp": "~0.1.5",
+                "nelmio/api-doc-bundle": "@dev",
+                "patchwork/jsqueeze": "~1.0",
+                "php": ">=5.3.9",
+                "sensio/distribution-bundle": "~4.0",
+                "sensio/framework-extra-bundle": "^3.0.2",
+                "symfony/assetic-bundle": "~2.3",
+                "symfony/monolog-bundle": "~2.4",
+                "symfony/swiftmailer-bundle": "~2.3",
+                "symfony/symfony": "2.7.*",
+                "willdurand/rest-extra-bundle": "@dev"
+            },
+            "require-dev": {
+                "doctrine/doctrine-fixtures-bundle": "dev-master",
+                "guzzle/plugin": "3.7.*",
+                "liip/functional-test-bundle": "dev-master",
+                "phpunit/phpunit": "3.7.*",
+                "sensio/generator-bundle": "~2.3",
+                "symfony/phpunit-bridge": "~2.7"
+            },
+            "type": "symfony-bundle",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "0.0.1-dev"
+                }
+            },
+            "autoload": {
+                "psr-0": {
+                    "Ais\\PimpinanProdiBundle": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Hasan Setiawan",
+                    "email": "vizzlearn@gmail.com"
+                }
+            ],
+            "description": "A bundle filled with PimpinanProdi",
+            "keywords": [
+                "PimpinanProdi Bundle"
+            ],
+            "time": "2015-12-22 12:47:32"
+        },
+        {
+            "name": "ais/prestasibundle",
+            "version": "dev-master",
+            "target-dir": "Ais/PrestasiBundle",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/theredfoxfire/ais-prestasi-bundle.git",
+                "reference": "82bb36916e26513eaa1242184d2fa40cf459b549"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/theredfoxfire/ais-prestasi-bundle/zipball/82bb36916e26513eaa1242184d2fa40cf459b549",
+                "reference": "82bb36916e26513eaa1242184d2fa40cf459b549",
+                "shasum": ""
+            },
+            "require": {
+                "doctrine/doctrine-bundle": "~1.4",
+                "doctrine/orm": "^2.4.8",
+                "friendsofsymfony/rest-bundle": "@dev",
+                "incenteev/composer-parameter-handler": "~2.0",
+                "ircmaxell/password-compat": "~1.0",
+                "jms/serializer-bundle": "@dev",
+                "leafo/scssphp": "~0.1.5",
+                "nelmio/api-doc-bundle": "@dev",
+                "patchwork/jsqueeze": "~1.0",
+                "php": ">=5.3.9",
+                "sensio/distribution-bundle": "~4.0",
+                "sensio/framework-extra-bundle": "^3.0.2",
+                "symfony/assetic-bundle": "~2.3",
+                "symfony/monolog-bundle": "~2.4",
+                "symfony/swiftmailer-bundle": "~2.3",
+                "symfony/symfony": "2.7.*",
+                "willdurand/rest-extra-bundle": "@dev"
+            },
+            "require-dev": {
+                "doctrine/doctrine-fixtures-bundle": "dev-master",
+                "guzzle/plugin": "3.7.*",
+                "liip/functional-test-bundle": "dev-master",
+                "phpunit/phpunit": "3.7.*",
+                "sensio/generator-bundle": "~2.3",
+                "symfony/phpunit-bridge": "~2.7"
+            },
+            "type": "symfony-bundle",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "0.0.1-dev"
+                }
+            },
+            "autoload": {
+                "psr-0": {
+                    "Ais\\PrestasiBundle": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Hasan Setiawan",
+                    "email": "vizzlearn@gmail.com"
+                }
+            ],
+            "description": "A bundle filled with Prestasi",
+            "keywords": [
+                "Prestasi Bundle"
+            ],
+            "time": "2015-12-22 12:49:09"
+        },
+        {
+            "name": "ais/prodibundle",
+            "version": "dev-master",
+            "target-dir": "Ais/ProdiBundle",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/theredfoxfire/ais-prodi-bundle.git",
+                "reference": "b673c91db52725a5ae3b00a587dbedf09ab73f30"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/theredfoxfire/ais-prodi-bundle/zipball/b673c91db52725a5ae3b00a587dbedf09ab73f30",
+                "reference": "b673c91db52725a5ae3b00a587dbedf09ab73f30",
+                "shasum": ""
+            },
+            "require": {
+                "doctrine/doctrine-bundle": "~1.4",
+                "doctrine/orm": "^2.4.8",
+                "friendsofsymfony/rest-bundle": "@dev",
+                "incenteev/composer-parameter-handler": "~2.0",
+                "ircmaxell/password-compat": "~1.0",
+                "jms/serializer-bundle": "@dev",
+                "leafo/scssphp": "~0.1.5",
+                "nelmio/api-doc-bundle": "@dev",
+                "patchwork/jsqueeze": "~1.0",
+                "php": ">=5.3.9",
+                "sensio/distribution-bundle": "~4.0",
+                "sensio/framework-extra-bundle": "^3.0.2",
+                "symfony/assetic-bundle": "~2.3",
+                "symfony/monolog-bundle": "~2.4",
+                "symfony/swiftmailer-bundle": "~2.3",
+                "symfony/symfony": "2.7.*",
+                "willdurand/rest-extra-bundle": "@dev"
+            },
+            "require-dev": {
+                "doctrine/doctrine-fixtures-bundle": "dev-master",
+                "guzzle/plugin": "3.7.*",
+                "liip/functional-test-bundle": "dev-master",
+                "phpunit/phpunit": "3.7.*",
+                "sensio/generator-bundle": "~2.3",
+                "symfony/phpunit-bridge": "~2.7"
+            },
+            "type": "symfony-bundle",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "0.0.1-dev"
+                }
+            },
+            "autoload": {
+                "psr-0": {
+                    "Ais\\ProdiBundle": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Hasan Setiawan",
+                    "email": "vizzlearn@gmail.com"
+                }
+            ],
+            "description": "A bundle filled with Prodi",
+            "keywords": [
+                "Prodi Bundle"
+            ],
+            "time": "2015-12-22 07:46:15"
+        },
+        {
+            "name": "ais/provinsibundle",
+            "version": "dev-master",
+            "target-dir": "Ais/ProvinsiBundle",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/theredfoxfire/ais-provinsi-bundle.git",
+                "reference": "b14c4ca80e52ff3270443bf768532c1722a2f82c"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/theredfoxfire/ais-provinsi-bundle/zipball/b14c4ca80e52ff3270443bf768532c1722a2f82c",
+                "reference": "b14c4ca80e52ff3270443bf768532c1722a2f82c",
+                "shasum": ""
+            },
+            "require": {
+                "doctrine/doctrine-bundle": "~1.4",
+                "doctrine/orm": "^2.4.8",
+                "friendsofsymfony/rest-bundle": "@dev",
+                "incenteev/composer-parameter-handler": "~2.0",
+                "ircmaxell/password-compat": "~1.0",
+                "jms/serializer-bundle": "@dev",
+                "leafo/scssphp": "~0.1.5",
+                "nelmio/api-doc-bundle": "@dev",
+                "patchwork/jsqueeze": "~1.0",
+                "php": ">=5.3.9",
+                "sensio/distribution-bundle": "~4.0",
+                "sensio/framework-extra-bundle": "^3.0.2",
+                "symfony/assetic-bundle": "~2.3",
+                "symfony/monolog-bundle": "~2.4",
+                "symfony/swiftmailer-bundle": "~2.3",
+                "symfony/symfony": "2.7.*",
+                "willdurand/rest-extra-bundle": "@dev"
+            },
+            "require-dev": {
+                "doctrine/doctrine-fixtures-bundle": "dev-master",
+                "guzzle/plugin": "3.7.*",
+                "liip/functional-test-bundle": "dev-master",
+                "phpunit/phpunit": "3.7.*",
+                "sensio/generator-bundle": "~2.3",
+                "symfony/phpunit-bridge": "~2.7"
+            },
+            "type": "symfony-bundle",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "0.0.1-dev"
+                }
+            },
+            "autoload": {
+                "psr-0": {
+                    "Ais\\ProvinsiBundle": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Hasan Setiawan",
+                    "email": "vizzlearn@gmail.com"
+                }
+            ],
+            "description": "A bundle filled with Provinsi",
+            "keywords": [
+                "Provinsi Bundle"
+            ],
+            "time": "2015-12-22 07:53:33"
+        },
+        {
+            "name": "ais/ruangbundle",
+            "version": "dev-master",
+            "target-dir": "Ais/RuangBundle",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/theredfoxfire/ais-ruang-bundle.git",
+                "reference": "b89b8c34afbf36291aa9fe5c6d93476d1a13ba69"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/theredfoxfire/ais-ruang-bundle/zipball/b89b8c34afbf36291aa9fe5c6d93476d1a13ba69",
+                "reference": "b89b8c34afbf36291aa9fe5c6d93476d1a13ba69",
+                "shasum": ""
+            },
+            "require": {
+                "doctrine/doctrine-bundle": "~1.4",
+                "doctrine/orm": "^2.4.8",
+                "friendsofsymfony/rest-bundle": "@dev",
+                "incenteev/composer-parameter-handler": "~2.0",
+                "ircmaxell/password-compat": "~1.0",
+                "jms/serializer-bundle": "@dev",
+                "leafo/scssphp": "~0.1.5",
+                "nelmio/api-doc-bundle": "@dev",
+                "patchwork/jsqueeze": "~1.0",
+                "php": ">=5.3.9",
+                "sensio/distribution-bundle": "~4.0",
+                "sensio/framework-extra-bundle": "^3.0.2",
+                "symfony/assetic-bundle": "~2.3",
+                "symfony/monolog-bundle": "~2.4",
+                "symfony/swiftmailer-bundle": "~2.3",
+                "symfony/symfony": "2.7.*",
+                "willdurand/rest-extra-bundle": "@dev"
+            },
+            "require-dev": {
+                "doctrine/doctrine-fixtures-bundle": "dev-master",
+                "guzzle/plugin": "3.7.*",
+                "liip/functional-test-bundle": "dev-master",
+                "phpunit/phpunit": "3.7.*",
+                "sensio/generator-bundle": "~2.3",
+                "symfony/phpunit-bridge": "~2.7"
+            },
+            "type": "symfony-bundle",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "0.0.1-dev"
+                }
+            },
+            "autoload": {
+                "psr-0": {
+                    "Ais\\RuangBundle": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Hasan Setiawan",
+                    "email": "vizzlearn@gmail.com"
+                }
+            ],
+            "description": "A bundle filled with Ruang",
+            "keywords": [
+                "Ruang Bundle"
+            ],
+            "time": "2015-12-22 07:50:29"
+        },
+        {
+            "name": "ais/semesterbundle",
+            "version": "dev-master",
+            "target-dir": "Ais/SemesterBundle",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/theredfoxfire/ais-semester-bundle.git",
+                "reference": "00615efba22447bd719597a6b5c9df3ec62407ae"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/theredfoxfire/ais-semester-bundle/zipball/00615efba22447bd719597a6b5c9df3ec62407ae",
+                "reference": "00615efba22447bd719597a6b5c9df3ec62407ae",
+                "shasum": ""
+            },
+            "require": {
+                "doctrine/doctrine-bundle": "~1.4",
+                "doctrine/orm": "^2.4.8",
+                "friendsofsymfony/rest-bundle": "@dev",
+                "incenteev/composer-parameter-handler": "~2.0",
+                "ircmaxell/password-compat": "~1.0",
+                "jms/serializer-bundle": "@dev",
+                "leafo/scssphp": "~0.1.5",
+                "nelmio/api-doc-bundle": "@dev",
+                "patchwork/jsqueeze": "~1.0",
+                "php": ">=5.3.9",
+                "sensio/distribution-bundle": "~4.0",
+                "sensio/framework-extra-bundle": "^3.0.2",
+                "symfony/assetic-bundle": "~2.3",
+                "symfony/monolog-bundle": "~2.4",
+                "symfony/swiftmailer-bundle": "~2.3",
+                "symfony/symfony": "2.7.*",
+                "willdurand/rest-extra-bundle": "@dev"
+            },
+            "require-dev": {
+                "doctrine/doctrine-fixtures-bundle": "dev-master",
+                "guzzle/plugin": "3.7.*",
+                "liip/functional-test-bundle": "dev-master",
+                "phpunit/phpunit": "3.7.*",
+                "sensio/generator-bundle": "~2.3",
+                "symfony/phpunit-bridge": "~2.7"
+            },
+            "type": "symfony-bundle",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "0.0.1-dev"
+                }
+            },
+            "autoload": {
+                "psr-0": {
+                    "Ais\\SemesterBundle": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Hasan Setiawan",
+                    "email": "vizzlearn@gmail.com"
+                }
+            ],
+            "description": "A bundle filled with Semester",
+            "keywords": [
+                "Semester Bundle"
+            ],
+            "time": "2015-12-22 07:55:53"
+        },
+        {
+            "name": "ais/slotbundle",
+            "version": "dev-master",
+            "target-dir": "Ais/SlotBundle",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/theredfoxfire/ais-slot-bundle.git",
+                "reference": "0d010ec34eff7d53117dd8ede09b5c638d07482a"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/theredfoxfire/ais-slot-bundle/zipball/0d010ec34eff7d53117dd8ede09b5c638d07482a",
+                "reference": "0d010ec34eff7d53117dd8ede09b5c638d07482a",
+                "shasum": ""
+            },
+            "require": {
+                "doctrine/doctrine-bundle": "~1.4",
+                "doctrine/orm": "^2.4.8",
+                "friendsofsymfony/rest-bundle": "@dev",
+                "incenteev/composer-parameter-handler": "~2.0",
+                "ircmaxell/password-compat": "~1.0",
+                "jms/serializer-bundle": "@dev",
+                "leafo/scssphp": "~0.1.5",
+                "nelmio/api-doc-bundle": "@dev",
+                "patchwork/jsqueeze": "~1.0",
+                "php": ">=5.3.9",
+                "sensio/distribution-bundle": "~4.0",
+                "sensio/framework-extra-bundle": "^3.0.2",
+                "symfony/assetic-bundle": "~2.3",
+                "symfony/monolog-bundle": "~2.4",
+                "symfony/swiftmailer-bundle": "~2.3",
+                "symfony/symfony": "2.7.*",
+                "willdurand/rest-extra-bundle": "@dev"
+            },
+            "require-dev": {
+                "doctrine/doctrine-fixtures-bundle": "dev-master",
+                "guzzle/plugin": "3.7.*",
+                "liip/functional-test-bundle": "dev-master",
+                "phpunit/phpunit": "3.7.*",
+                "sensio/generator-bundle": "~2.3",
+                "symfony/phpunit-bridge": "~2.7"
+            },
+            "type": "symfony-bundle",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "0.0.1-dev"
+                }
+            },
+            "autoload": {
+                "psr-0": {
+                    "Ais\\SlotBundle": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Hasan Setiawan",
+                    "email": "vizzlearn@gmail.com"
+                }
+            ],
+            "description": "A bundle filled with Slot",
+            "keywords": [
+                "Slot Bundle"
+            ],
+            "time": "2015-12-22 07:42:37"
+        },
+        {
+            "name": "ais/statuskeaktifanbundle",
+            "version": "dev-master",
+            "target-dir": "Ais/StatusKeaktifanBundle",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/theredfoxfire/ais-status-keaktifan-bundle.git",
+                "reference": "1d40d9e20bf369a1b4e7fe95a3df51bfa3bbdd73"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/theredfoxfire/ais-status-keaktifan-bundle/zipball/1d40d9e20bf369a1b4e7fe95a3df51bfa3bbdd73",
+                "reference": "1d40d9e20bf369a1b4e7fe95a3df51bfa3bbdd73",
+                "shasum": ""
+            },
+            "require": {
+                "doctrine/doctrine-bundle": "~1.4",
+                "doctrine/orm": "^2.4.8",
+                "friendsofsymfony/rest-bundle": "@dev",
+                "incenteev/composer-parameter-handler": "~2.0",
+                "ircmaxell/password-compat": "~1.0",
+                "jms/serializer-bundle": "@dev",
+                "leafo/scssphp": "~0.1.5",
+                "nelmio/api-doc-bundle": "@dev",
+                "patchwork/jsqueeze": "~1.0",
+                "php": ">=5.3.9",
+                "sensio/distribution-bundle": "~4.0",
+                "sensio/framework-extra-bundle": "^3.0.2",
+                "symfony/assetic-bundle": "~2.3",
+                "symfony/monolog-bundle": "~2.4",
+                "symfony/swiftmailer-bundle": "~2.3",
+                "symfony/symfony": "2.7.*",
+                "willdurand/rest-extra-bundle": "@dev"
+            },
+            "require-dev": {
+                "doctrine/doctrine-fixtures-bundle": "dev-master",
+                "guzzle/plugin": "3.7.*",
+                "liip/functional-test-bundle": "dev-master",
+                "phpunit/phpunit": "3.7.*",
+                "sensio/generator-bundle": "~2.3",
+                "symfony/phpunit-bridge": "~2.7"
+            },
+            "type": "symfony-bundle",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "0.0.1-dev"
+                }
+            },
+            "autoload": {
+                "psr-0": {
+                    "Ais\\StatusKeaktifanBundle": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Hasan Setiawan",
+                    "email": "vizzlearn@gmail.com"
+                }
+            ],
+            "description": "A bundle filled with StatusKeaktifan",
+            "keywords": [
+                "StatusKeaktifan Bundle"
+            ],
+            "time": "2015-12-22 07:08:21"
+        },
+        {
+            "name": "ais/transkripbundle",
+            "version": "dev-master",
+            "target-dir": "Ais/TranskripBundle",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/theredfoxfire/ais-transkrip-bundle.git",
+                "reference": "e3a09954fe82a66c9c30cdcfbd953d121366d8fc"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/theredfoxfire/ais-transkrip-bundle/zipball/e3a09954fe82a66c9c30cdcfbd953d121366d8fc",
+                "reference": "e3a09954fe82a66c9c30cdcfbd953d121366d8fc",
+                "shasum": ""
+            },
+            "require": {
+                "doctrine/doctrine-bundle": "~1.4",
+                "doctrine/orm": "^2.4.8",
+                "friendsofsymfony/rest-bundle": "@dev",
+                "incenteev/composer-parameter-handler": "~2.0",
+                "ircmaxell/password-compat": "~1.0",
+                "jms/serializer-bundle": "@dev",
+                "leafo/scssphp": "~0.1.5",
+                "nelmio/api-doc-bundle": "@dev",
+                "patchwork/jsqueeze": "~1.0",
+                "php": ">=5.3.9",
+                "sensio/distribution-bundle": "~4.0",
+                "sensio/framework-extra-bundle": "^3.0.2",
+                "symfony/assetic-bundle": "~2.3",
+                "symfony/monolog-bundle": "~2.4",
+                "symfony/swiftmailer-bundle": "~2.3",
+                "symfony/symfony": "2.7.*",
+                "willdurand/rest-extra-bundle": "@dev"
+            },
+            "require-dev": {
+                "doctrine/doctrine-fixtures-bundle": "dev-master",
+                "guzzle/plugin": "3.7.*",
+                "liip/functional-test-bundle": "dev-master",
+                "phpunit/phpunit": "3.7.*",
+                "sensio/generator-bundle": "~2.3",
+                "symfony/phpunit-bridge": "~2.7"
+            },
+            "type": "symfony-bundle",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "0.0.1-dev"
+                }
+            },
+            "autoload": {
+                "psr-0": {
+                    "Ais\\TranskripBundle": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Hasan Setiawan",
+                    "email": "vizzlearn@gmail.com"
+                }
+            ],
+            "description": "A bundle filled with Transkrip",
+            "keywords": [
+                "Transkrip Bundle"
+            ],
+            "time": "2015-12-22 07:33:26"
+        },
+        {
+            "name": "ais/userbundle",
+            "version": "dev-master",
+            "target-dir": "Ais/UserBundle",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/theredfoxfire/ais-user-bundle.git",
+                "reference": "ca31921142f9ebb0c688da4cb51b23e21f0c7d1f"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/theredfoxfire/ais-user-bundle/zipball/ca31921142f9ebb0c688da4cb51b23e21f0c7d1f",
+                "reference": "ca31921142f9ebb0c688da4cb51b23e21f0c7d1f",
+                "shasum": ""
+            },
+            "require": {
+                "doctrine/doctrine-bundle": "~1.4",
+                "doctrine/orm": "^2.4.8",
+                "friendsofsymfony/oauth-server-bundle": "1.4.2",
+                "friendsofsymfony/rest-bundle": "@dev",
+                "incenteev/composer-parameter-handler": "~2.0",
+                "ircmaxell/password-compat": "~1.0",
+                "jms/serializer-bundle": "@dev",
+                "leafo/scssphp": "~0.1.5",
+                "nelmio/api-doc-bundle": "@dev",
+                "patchwork/jsqueeze": "~1.0",
+                "php": ">=5.3.9",
+                "sensio/distribution-bundle": "~4.0",
+                "sensio/framework-extra-bundle": "^3.0.2",
+                "symfony/assetic-bundle": "~2.3",
+                "symfony/monolog-bundle": "~2.4",
+                "symfony/swiftmailer-bundle": "~2.3",
+                "symfony/symfony": "2.7.*",
+                "willdurand/rest-extra-bundle": "@dev"
+            },
+            "require-dev": {
+                "doctrine/doctrine-fixtures-bundle": "^2.3",
+                "guzzle/plugin": "3.7.*",
+                "liip/functional-test-bundle": "dev-master",
+                "phpunit/phpunit": "3.7.*",
+                "sensio/generator-bundle": "~2.3",
+                "symfony/phpunit-bridge": "~2.7"
+            },
+            "type": "symfony-bundle",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "0.0.1-dev"
+                }
+            },
+            "autoload": {
+                "psr-0": {
+                    "Ais\\UserBundle": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Hasan Setiawan",
+                    "email": "vizzlearn@gmail.com"
+                }
+            ],
+            "description": "A bundle filled with User",
+            "keywords": [
+                "user bundle"
+            ],
+            "time": "2016-01-07 03:06:51"
+        },
+        {
+            "name": "ais/wisudabundle",
+            "version": "dev-master",
+            "target-dir": "Ais/WisudaBundle",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/theredfoxfire/ais-wisuda-bundle.git",
+                "reference": "92143e9e456785652c2772533633168c2ef7d21f"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/theredfoxfire/ais-wisuda-bundle/zipball/92143e9e456785652c2772533633168c2ef7d21f",
+                "reference": "92143e9e456785652c2772533633168c2ef7d21f",
+                "shasum": ""
+            },
+            "require": {
+                "doctrine/doctrine-bundle": "~1.4",
+                "doctrine/orm": "^2.4.8",
+                "friendsofsymfony/rest-bundle": "@dev",
+                "incenteev/composer-parameter-handler": "~2.0",
+                "ircmaxell/password-compat": "~1.0",
+                "jms/serializer-bundle": "@dev",
+                "leafo/scssphp": "~0.1.5",
+                "nelmio/api-doc-bundle": "@dev",
+                "patchwork/jsqueeze": "~1.0",
+                "php": ">=5.3.9",
+                "sensio/distribution-bundle": "~4.0",
+                "sensio/framework-extra-bundle": "^3.0.2",
+                "symfony/assetic-bundle": "~2.3",
+                "symfony/monolog-bundle": "~2.4",
+                "symfony/swiftmailer-bundle": "~2.3",
+                "symfony/symfony": "2.7.*",
+                "willdurand/rest-extra-bundle": "@dev"
+            },
+            "require-dev": {
+                "doctrine/doctrine-fixtures-bundle": "dev-master",
+                "guzzle/plugin": "3.7.*",
+                "liip/functional-test-bundle": "dev-master",
+                "phpunit/phpunit": "3.7.*",
+                "sensio/generator-bundle": "~2.3",
+                "symfony/phpunit-bridge": "~2.7"
+            },
+            "type": "symfony-bundle",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "0.0.1-dev"
+                }
+            },
+            "autoload": {
+                "psr-0": {
+                    "Ais\\WisudaBundle": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Hasan Setiawan",
+                    "email": "vizzlearn@gmail.com"
+                }
+            ],
+            "description": "A bundle filled with Wisuda",
+            "keywords": [
+                "Wisuda Bundle"
+            ],
+            "time": "2015-12-22 03:27:24"
+        },
         {
             "name": "doctrine/annotations",
             "version": "v1.2.7",
@@ -77,33 +1941,33 @@
         },
         {
             "name": "doctrine/cache",
-            "version": "v1.5.1",
+            "version": "v1.6.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/doctrine/cache.git",
-                "reference": "2b9cec5a5e722010cbebc91713d4c11eaa064d5e"
+                "reference": "f8af318d14bdb0eff0336795b428b547bd39ccb6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/doctrine/cache/zipball/2b9cec5a5e722010cbebc91713d4c11eaa064d5e",
-                "reference": "2b9cec5a5e722010cbebc91713d4c11eaa064d5e",
+                "url": "https://api.github.com/repos/doctrine/cache/zipball/f8af318d14bdb0eff0336795b428b547bd39ccb6",
+                "reference": "f8af318d14bdb0eff0336795b428b547bd39ccb6",
                 "shasum": ""
             },
             "require": {
-                "php": ">=5.3.2"
+                "php": "~5.5|~7.0"
             },
             "conflict": {
                 "doctrine/common": ">2.2,<2.4"
             },
             "require-dev": {
-                "phpunit/phpunit": ">=3.7",
+                "phpunit/phpunit": "~4.8|~5.0",
                 "predis/predis": "~1.0",
                 "satooshi/php-coveralls": "~0.6"
             },
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "1.5.x-dev"
+                    "dev-master": "1.6.x-dev"
                 }
             },
             "autoload": {
@@ -143,7 +2007,7 @@
                 "cache",
                 "caching"
             ],
-            "time": "2015-11-02 18:35:48"
+            "time": "2015-12-31 16:37:02"
         },
         {
             "name": "doctrine/collections",
@@ -213,16 +2077,16 @@
         },
         {
             "name": "doctrine/common",
-            "version": "v2.5.1",
+            "version": "v2.6.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/doctrine/common.git",
-                "reference": "0009b8f0d4a917aabc971fb089eba80e872f83f9"
+                "reference": "a579557bc689580c19fee4e27487a67fe60defc0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/doctrine/common/zipball/0009b8f0d4a917aabc971fb089eba80e872f83f9",
-                "reference": "0009b8f0d4a917aabc971fb089eba80e872f83f9",
+                "url": "https://api.github.com/repos/doctrine/common/zipball/a579557bc689580c19fee4e27487a67fe60defc0",
+                "reference": "a579557bc689580c19fee4e27487a67fe60defc0",
                 "shasum": ""
             },
             "require": {
@@ -231,20 +2095,20 @@
                 "doctrine/collections": "1.*",
                 "doctrine/inflector": "1.*",
                 "doctrine/lexer": "1.*",
-                "php": ">=5.3.2"
+                "php": "~5.5|~7.0"
             },
             "require-dev": {
-                "phpunit/phpunit": "~3.7"
+                "phpunit/phpunit": "~4.8|~5.0"
             },
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "2.6.x-dev"
+                    "dev-master": "2.7.x-dev"
                 }
             },
             "autoload": {
-                "psr-0": {
-                    "Doctrine\\Common\\": "lib/"
+                "psr-4": {
+                    "Doctrine\\Common\\": "lib/Doctrine/Common"
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
@@ -282,24 +2146,24 @@
                 "persistence",
                 "spl"
             ],
-            "time": "2015-08-31 13:00:22"
+            "time": "2015-12-25 13:18:31"
         },
         {
             "name": "doctrine/dbal",
-            "version": "v2.5.2",
+            "version": "v2.5.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/doctrine/dbal.git",
-                "reference": "01dbcbc5cd0a913d751418e635434a18a2f2a75c"
+                "reference": "abbdfd1cff43a7b99d027af3be709bc8fc7d4769"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/doctrine/dbal/zipball/01dbcbc5cd0a913d751418e635434a18a2f2a75c",
-                "reference": "01dbcbc5cd0a913d751418e635434a18a2f2a75c",
+                "url": "https://api.github.com/repos/doctrine/dbal/zipball/abbdfd1cff43a7b99d027af3be709bc8fc7d4769",
+                "reference": "abbdfd1cff43a7b99d027af3be709bc8fc7d4769",
                 "shasum": ""
             },
             "require": {
-                "doctrine/common": ">=2.4,<2.6-dev",
+                "doctrine/common": ">=2.4,<2.7-dev",
                 "php": ">=5.3.2"
             },
             "require-dev": {
@@ -353,20 +2217,20 @@
                 "persistence",
                 "queryobject"
             ],
-            "time": "2015-09-16 16:29:33"
+            "time": "2016-01-05 22:11:12"
         },
         {
             "name": "doctrine/doctrine-bundle",
-            "version": "1.6.0",
+            "version": "1.6.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/doctrine/DoctrineBundle.git",
-                "reference": "a5b3ba908ba68f3e14e42762a7b940fde65ed7da"
+                "reference": "c4ffef2b2296e9d0179eb0b5248e5ae25c9bba3b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/doctrine/DoctrineBundle/zipball/a5b3ba908ba68f3e14e42762a7b940fde65ed7da",
-                "reference": "a5b3ba908ba68f3e14e42762a7b940fde65ed7da",
+                "url": "https://api.github.com/repos/doctrine/DoctrineBundle/zipball/c4ffef2b2296e9d0179eb0b5248e5ae25c9bba3b",
+                "reference": "c4ffef2b2296e9d0179eb0b5248e5ae25c9bba3b",
                 "shasum": ""
             },
             "require": {
@@ -431,28 +2295,27 @@
                 "orm",
                 "persistence"
             ],
-            "time": "2015-11-04 21:33:02"
+            "time": "2015-11-16 17:11:46"
         },
         {
             "name": "doctrine/doctrine-cache-bundle",
-            "version": "1.2.1",
+            "version": "1.2.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/doctrine/DoctrineCacheBundle.git",
-                "reference": "3233bc78e222d528ca89a6a47d48d6f37888e95e"
+                "reference": "030ff41ef1db66370b36467086bfb817a661fe6a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/doctrine/DoctrineCacheBundle/zipball/3233bc78e222d528ca89a6a47d48d6f37888e95e",
-                "reference": "3233bc78e222d528ca89a6a47d48d6f37888e95e",
+                "url": "https://api.github.com/repos/doctrine/DoctrineCacheBundle/zipball/030ff41ef1db66370b36467086bfb817a661fe6a",
+                "reference": "030ff41ef1db66370b36467086bfb817a661fe6a",
                 "shasum": ""
             },
             "require": {
                 "doctrine/cache": "^1.4.2",
                 "doctrine/inflector": "~1.0",
                 "php": ">=5.3.2",
-                "symfony/doctrine-bridge": "~2.2|~3.0",
-                "symfony/security-acl": "~2.3|~3.0"
+                "symfony/doctrine-bridge": "~2.2|~3.0"
             },
             "require-dev": {
                 "instaclick/coding-standard": "~1.1",
@@ -465,13 +2328,17 @@
                 "symfony/finder": "~2.2|~3.0",
                 "symfony/framework-bundle": "~2.2|~3.0",
                 "symfony/phpunit-bridge": "~2.7|~3.0",
+                "symfony/security-acl": "~2.3|~3.0",
                 "symfony/validator": "~2.2|~3.0",
                 "symfony/yaml": "~2.2|~3.0"
+            },
+            "suggest": {
+                "symfony/security-acl": "For using this bundle to cache ACLs"
             },
             "type": "symfony-bundle",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "1.0.x-dev"
+                    "dev-master": "1.2.x-dev"
                 }
             },
             "autoload": {
@@ -515,7 +2382,7 @@
                 "cache",
                 "caching"
             ],
-            "time": "2015-11-05 13:48:27"
+            "time": "2015-11-27 04:59:07"
         },
         {
             "name": "doctrine/inflector",
@@ -694,32 +2561,31 @@
         },
         {
             "name": "doctrine/orm",
-            "version": "v2.5.1",
+            "version": "v2.5.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/doctrine/doctrine2.git",
-                "reference": "e6a83bedbe67579cb0bfb688e982e617943a2945"
+                "reference": "bc4ddbfb0114cb33438cc811c9a740d8aa304aab"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/doctrine/doctrine2/zipball/e6a83bedbe67579cb0bfb688e982e617943a2945",
-                "reference": "e6a83bedbe67579cb0bfb688e982e617943a2945",
+                "url": "https://api.github.com/repos/doctrine/doctrine2/zipball/bc4ddbfb0114cb33438cc811c9a740d8aa304aab",
+                "reference": "bc4ddbfb0114cb33438cc811c9a740d8aa304aab",
                 "shasum": ""
             },
             "require": {
                 "doctrine/cache": "~1.4",
                 "doctrine/collections": "~1.2",
-                "doctrine/common": ">=2.5-dev,<2.6-dev",
+                "doctrine/common": ">=2.5-dev,<2.7-dev",
                 "doctrine/dbal": ">=2.5-dev,<2.6-dev",
                 "doctrine/instantiator": "~1.0.1",
                 "ext-pdo": "*",
                 "php": ">=5.4",
-                "symfony/console": "~2.5"
+                "symfony/console": "~2.5|~3.0"
             },
             "require-dev": {
                 "phpunit/phpunit": "~4.0",
-                "satooshi/php-coveralls": "dev-master",
-                "symfony/yaml": "~2.1"
+                "symfony/yaml": "~2.3|~3.0"
             },
             "suggest": {
                 "symfony/yaml": "If you want to use YAML Metadata Mapping Driver"
@@ -767,7 +2633,216 @@
                 "database",
                 "orm"
             ],
-            "time": "2015-08-31 12:59:39"
+            "time": "2016-01-05 21:34:58"
+        },
+        {
+            "name": "friendsofsymfony/oauth-server-bundle",
+            "version": "1.4.2",
+            "target-dir": "FOS/OAuthServerBundle",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/FriendsOfSymfony/FOSOAuthServerBundle.git",
+                "reference": "9e15c229eff547443d686445d629e9356ab0672e"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/FriendsOfSymfony/FOSOAuthServerBundle/zipball/9e15c229eff547443d686445d629e9356ab0672e",
+                "reference": "9e15c229eff547443d686445d629e9356ab0672e",
+                "shasum": ""
+            },
+            "require": {
+                "friendsofsymfony/oauth2-php": "~1.1.0",
+                "php": ">=5.3.3",
+                "symfony/framework-bundle": "~2.1",
+                "symfony/security-bundle": "~2.1"
+            },
+            "require-dev": {
+                "doctrine/doctrine-bundle": "~1.0",
+                "doctrine/mongodb-odm": "1.0.*@dev",
+                "doctrine/orm": ">=2.2,<2.5-dev",
+                "symfony/class-loader": "~2.1",
+                "symfony/yaml": "~2.1",
+                "willdurand/propel-typehintable-behavior": "1.0.*"
+            },
+            "suggest": {
+                "doctrine/doctrine-bundle": "*",
+                "doctrine/mongodb-odm-bundle": "*",
+                "propel/propel-bundle": "If you want to use Propel with Symfony2, then you will have to install the PropelBundle",
+                "willdurand/propel-typehintable-behavior": "The Typehintable behavior is useful to add type hints on generated methods, to be compliant with interfaces"
+            },
+            "type": "symfony-bundle",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.4-dev"
+                }
+            },
+            "autoload": {
+                "psr-0": {
+                    "FOS\\OAuthServerBundle": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Arnaud Le Blanc",
+                    "email": "arnaud.lb@gmail.com"
+                },
+                {
+                    "name": "FriendsOfSymfony Community",
+                    "homepage": "https://github.com/FriendsOfSymfony/FOSOAuthServerBundle/contributors"
+                }
+            ],
+            "description": "Symfony2 OAuth Server Bundle",
+            "homepage": "http://friendsofsymfony.github.com",
+            "keywords": [
+                "oauth",
+                "oauth2",
+                "server"
+            ],
+            "time": "2014-10-31 13:44:14"
+        },
+        {
+            "name": "friendsofsymfony/oauth2-php",
+            "version": "1.1.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/FriendsOfSymfony/oauth2-php.git",
+                "reference": "23e76537c4a02e666ab4ba5abe67a69a886a0310"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/FriendsOfSymfony/oauth2-php/zipball/23e76537c4a02e666ab4ba5abe67a69a886a0310",
+                "reference": "23e76537c4a02e666ab4ba5abe67a69a886a0310",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.2",
+                "symfony/http-foundation": "~2.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "~4.0"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.1.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "OAuth2\\": "lib/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Arnaud Le Blanc",
+                    "email": "arnaud.lb@gmail.com"
+                },
+                {
+                    "name": "FriendsOfSymfony Community",
+                    "homepage": "https://github.com/FriendsOfSymfony/oauth2-php/contributors"
+                }
+            ],
+            "description": "OAuth2 library",
+            "homepage": "https://github.com/FriendsOfSymfony/oauth2-php",
+            "keywords": [
+                "oauth",
+                "oauth2"
+            ],
+            "time": "2014-11-03 10:21:20"
+        },
+        {
+            "name": "friendsofsymfony/rest-bundle",
+            "version": "1.7.7",
+            "target-dir": "FOS/RestBundle",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/FriendsOfSymfony/FOSRestBundle.git",
+                "reference": "c79b7e5df96e5581591ceb6a026bd4e5f9346de0"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/FriendsOfSymfony/FOSRestBundle/zipball/c79b7e5df96e5581591ceb6a026bd4e5f9346de0",
+                "reference": "c79b7e5df96e5581591ceb6a026bd4e5f9346de0",
+                "shasum": ""
+            },
+            "require": {
+                "doctrine/inflector": "~1.0",
+                "php": "^5.3.9|~7.0",
+                "psr/log": "~1.0",
+                "symfony/framework-bundle": "~2.3|~3.0",
+                "symfony/http-kernel": "^2.3.24|~3.0",
+                "willdurand/jsonp-callback-validator": "~1.0",
+                "willdurand/negotiation": "~1.2"
+            },
+            "conflict": {
+                "jms/serializer": "<0.12",
+                "jms/serializer-bundle": "<0.11",
+                "symfony/validator": ">=2.5.0,<2.5.5"
+            },
+            "require-dev": {
+                "jms/serializer": "~0.13|~1.0",
+                "jms/serializer-bundle": "~0.12|~1.0",
+                "phpoption/phpoption": "~1.1.0",
+                "sensio/framework-extra-bundle": "~2.0|~3.0",
+                "sllh/php-cs-fixer-styleci-bridge": "^1.3",
+                "symfony/browser-kit": "~2.3|~3.0",
+                "symfony/dependency-injection": "~2.3|~3.0",
+                "symfony/form": "~2.3|~3.0",
+                "symfony/phpunit-bridge": "~2.7|~3.0",
+                "symfony/security": "~2.3|~3.0",
+                "symfony/serializer": "~2.3|~3.0",
+                "symfony/validator": "~2.3|~3.0",
+                "symfony/yaml": "~2.3|~3.0"
+            },
+            "suggest": {
+                "jms/serializer-bundle": "Add support for advanced serialization capabilities, recommended, requires ~0.12||~1.0",
+                "sensio/framework-extra-bundle": "Add support for route annotations and the view response listener, requires ~3.0",
+                "symfony/serializer": "Add support for basic serialization capabilities and xml decoding, requires ~2.3",
+                "symfony/validator": "Add support for validation capabilities in the ParamFetcher, requires ~2.3"
+            },
+            "type": "symfony-bundle",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.7-dev"
+                }
+            },
+            "autoload": {
+                "psr-0": {
+                    "FOS\\RestBundle": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Lukas Kahwe Smith",
+                    "email": "smith@pooteeweet.org"
+                },
+                {
+                    "name": "FriendsOfSymfony Community",
+                    "homepage": "https://github.com/friendsofsymfony/FOSRestBundle/contributors"
+                },
+                {
+                    "name": "Konstantin Kudryashov",
+                    "email": "ever.zet@gmail.com"
+                }
+            ],
+            "description": "This Bundle provides various tools to rapidly develop RESTful API's with Symfony",
+            "homepage": "http://friendsofsymfony.github.com",
+            "keywords": [
+                "rest"
+            ],
+            "time": "2015-12-29 16:02:50"
         },
         {
             "name": "incenteev/composer-parameter-handler",
@@ -821,6 +2896,48 @@
             "time": "2015-11-10 17:04:01"
         },
         {
+            "name": "ircmaxell/password-compat",
+            "version": "v1.0.4",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/ircmaxell/password_compat.git",
+                "reference": "5c5cde8822a69545767f7c7f3058cb15ff84614c"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/ircmaxell/password_compat/zipball/5c5cde8822a69545767f7c7f3058cb15ff84614c",
+                "reference": "5c5cde8822a69545767f7c7f3058cb15ff84614c",
+                "shasum": ""
+            },
+            "require-dev": {
+                "phpunit/phpunit": "4.*"
+            },
+            "type": "library",
+            "autoload": {
+                "files": [
+                    "lib/password.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Anthony Ferrara",
+                    "email": "ircmaxell@php.net",
+                    "homepage": "http://blog.ircmaxell.com"
+                }
+            ],
+            "description": "A compatibility library for the proposed simplified password hashing algorithm: https://wiki.php.net/rfc/password_hash",
+            "homepage": "https://github.com/ircmaxell/password_compat",
+            "keywords": [
+                "hashing",
+                "password"
+            ],
+            "time": "2014-11-20 16:49:30"
+        },
+        {
             "name": "jdorn/sql-formatter",
             "version": "v1.2.17",
             "source": {
@@ -869,6 +2986,236 @@
                 "sql"
             ],
             "time": "2014-01-12 16:20:24"
+        },
+        {
+            "name": "jms/metadata",
+            "version": "1.5.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/schmittjoh/metadata.git",
+                "reference": "22b72455559a25777cfd28c4ffda81ff7639f353"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/schmittjoh/metadata/zipball/22b72455559a25777cfd28c4ffda81ff7639f353",
+                "reference": "22b72455559a25777cfd28c4ffda81ff7639f353",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.0"
+            },
+            "require-dev": {
+                "doctrine/cache": "~1.0"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.5.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-0": {
+                    "Metadata\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "Apache"
+            ],
+            "authors": [
+                {
+                    "name": "Johannes Schmitt",
+                    "email": "schmittjoh@gmail.com",
+                    "homepage": "https://github.com/schmittjoh",
+                    "role": "Developer of wrapped JMSSerializerBundle"
+                }
+            ],
+            "description": "Class/method/property metadata management in PHP",
+            "keywords": [
+                "annotations",
+                "metadata",
+                "xml",
+                "yaml"
+            ],
+            "time": "2014-07-12 07:13:19"
+        },
+        {
+            "name": "jms/parser-lib",
+            "version": "1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/schmittjoh/parser-lib.git",
+                "reference": "c509473bc1b4866415627af0e1c6cc8ac97fa51d"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/schmittjoh/parser-lib/zipball/c509473bc1b4866415627af0e1c6cc8ac97fa51d",
+                "reference": "c509473bc1b4866415627af0e1c6cc8ac97fa51d",
+                "shasum": ""
+            },
+            "require": {
+                "phpoption/phpoption": ">=0.9,<2.0-dev"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.0-dev"
+                }
+            },
+            "autoload": {
+                "psr-0": {
+                    "JMS\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "Apache2"
+            ],
+            "description": "A library for easily creating recursive-descent parsers.",
+            "time": "2012-11-18 18:08:43"
+        },
+        {
+            "name": "jms/serializer",
+            "version": "1.1.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/schmittjoh/serializer.git",
+                "reference": "fe13a1f993ea3456e195b7820692f2eb2b6bbb48"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/schmittjoh/serializer/zipball/fe13a1f993ea3456e195b7820692f2eb2b6bbb48",
+                "reference": "fe13a1f993ea3456e195b7820692f2eb2b6bbb48",
+                "shasum": ""
+            },
+            "require": {
+                "doctrine/annotations": "1.*",
+                "doctrine/instantiator": "~1.0.3",
+                "jms/metadata": "~1.1",
+                "jms/parser-lib": "1.*",
+                "php": ">=5.4.0",
+                "phpcollection/phpcollection": "~0.1"
+            },
+            "conflict": {
+                "twig/twig": "<1.12"
+            },
+            "require-dev": {
+                "doctrine/orm": "~2.1",
+                "doctrine/phpcr-odm": "~1.0.1",
+                "jackalope/jackalope-doctrine-dbal": "1.0.*",
+                "phpunit/phpunit": "~4.0",
+                "propel/propel1": "~1.7",
+                "symfony/filesystem": "2.*",
+                "symfony/form": "~2.1",
+                "symfony/translation": "~2.0",
+                "symfony/validator": "~2.0",
+                "symfony/yaml": "2.*",
+                "twig/twig": "~1.12|~2.0"
+            },
+            "suggest": {
+                "symfony/yaml": "Required if you'd like to serialize data to YAML format."
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.1-dev"
+                }
+            },
+            "autoload": {
+                "psr-0": {
+                    "JMS\\Serializer": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "Apache2"
+            ],
+            "authors": [
+                {
+                    "name": "Johannes M. Schmitt",
+                    "email": "schmittjoh@gmail.com"
+                }
+            ],
+            "description": "Library for (de-)serializing data of any complexity; supports XML, JSON, and YAML.",
+            "homepage": "http://jmsyst.com/libs/serializer",
+            "keywords": [
+                "deserialization",
+                "jaxb",
+                "json",
+                "serialization",
+                "xml"
+            ],
+            "time": "2015-10-27 09:24:41"
+        },
+        {
+            "name": "jms/serializer-bundle",
+            "version": "1.1.0",
+            "target-dir": "JMS/SerializerBundle",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/schmittjoh/JMSSerializerBundle.git",
+                "reference": "3e396c980545350c2efb65a50041d2a9f9d6562e"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/schmittjoh/JMSSerializerBundle/zipball/3e396c980545350c2efb65a50041d2a9f9d6562e",
+                "reference": "3e396c980545350c2efb65a50041d2a9f9d6562e",
+                "shasum": ""
+            },
+            "require": {
+                "jms/serializer": "^1.0.0",
+                "php": ">=5.4.0",
+                "phpoption/phpoption": "^1.1.0",
+                "symfony/framework-bundle": "~2.3|~3.0"
+            },
+            "require-dev": {
+                "doctrine/doctrine-bundle": "*",
+                "doctrine/orm": "*",
+                "symfony/browser-kit": "*",
+                "symfony/class-loader": "*",
+                "symfony/css-selector": "*",
+                "symfony/finder": "*",
+                "symfony/form": "*",
+                "symfony/process": "*",
+                "symfony/stopwatch": "*",
+                "symfony/twig-bundle": "*",
+                "symfony/validator": "*",
+                "symfony/yaml": "*"
+            },
+            "suggest": {
+                "jms/di-extra-bundle": "Required to get lazy loading (de)serialization visitors, ~1.3"
+            },
+            "type": "symfony-bundle",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.1-dev"
+                }
+            },
+            "autoload": {
+                "psr-0": {
+                    "JMS\\SerializerBundle": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "Apache2"
+            ],
+            "authors": [
+                {
+                    "name": "Johannes M. Schmitt",
+                    "email": "schmittjoh@gmail.com"
+                }
+            ],
+            "description": "Allows you to easily serialize, and deserialize data of any complexity",
+            "homepage": "http://jmsyst.com/bundles/JMSSerializerBundle",
+            "keywords": [
+                "deserialization",
+                "jaxb",
+                "json",
+                "serialization",
+                "xml"
+            ],
+            "time": "2015-11-10 12:26:42"
         },
         {
             "name": "kriswallsmith/assetic",
@@ -948,6 +3295,113 @@
             "time": "2015-11-12 13:51:40"
         },
         {
+            "name": "leafo/scssphp",
+            "version": "v0.1.10",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/leafo/scssphp.git",
+                "reference": "9e945cc64ccb6126123dd45cc2d219a4fbc99582"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/leafo/scssphp/zipball/9e945cc64ccb6126123dd45cc2d219a4fbc99582",
+                "reference": "9e945cc64ccb6126123dd45cc2d219a4fbc99582",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.0"
+            },
+            "require-dev": {
+                "kherge/box": "~2.5",
+                "phpunit/phpunit": "~3.7",
+                "squizlabs/php_codesniffer": "~2.3"
+            },
+            "bin": [
+                "bin/pscss"
+            ],
+            "type": "library",
+            "autoload": {
+                "classmap": [
+                    "classmap.php"
+                ],
+                "psr-4": {
+                    "Leafo\\ScssPhp\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Leaf Corcoran",
+                    "email": "leafot@gmail.com",
+                    "homepage": "http://leafo.net"
+                }
+            ],
+            "description": "scssphp is a compiler for SCSS written in PHP.",
+            "homepage": "http://leafo.github.io/scssphp/",
+            "keywords": [
+                "css",
+                "less",
+                "sass",
+                "scss",
+                "stylesheet"
+            ],
+            "time": "2015-08-23 16:12:31"
+        },
+        {
+            "name": "michelf/php-markdown",
+            "version": "1.6.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/michelf/php-markdown.git",
+                "reference": "156e56ee036505ec637d761ee62dc425d807183c"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/michelf/php-markdown/zipball/156e56ee036505ec637d761ee62dc425d807183c",
+                "reference": "156e56ee036505ec637d761ee62dc425d807183c",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.0"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-lib": "1.4.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-0": {
+                    "Michelf": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Michel Fortin",
+                    "email": "michel.fortin@michelf.ca",
+                    "homepage": "https://michelf.ca/",
+                    "role": "Developer"
+                },
+                {
+                    "name": "John Gruber",
+                    "homepage": "https://daringfireball.net/"
+                }
+            ],
+            "description": "PHP Markdown",
+            "homepage": "https://michelf.ca/projects/php-markdown/",
+            "keywords": [
+                "markdown"
+            ],
+            "time": "2015-12-24 01:37:31"
+        },
+        {
             "name": "monolog/monolog",
             "version": "1.17.2",
             "source": {
@@ -1025,6 +3479,232 @@
             "time": "2015-10-14 12:51:02"
         },
         {
+            "name": "nelmio/api-doc-bundle",
+            "version": "2.11.2",
+            "target-dir": "Nelmio/ApiDocBundle",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/nelmio/NelmioApiDocBundle.git",
+                "reference": "1ae2cfa9a50279d722d6b6e7b02322cef948d55d"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/nelmio/NelmioApiDocBundle/zipball/1ae2cfa9a50279d722d6b6e7b02322cef948d55d",
+                "reference": "1ae2cfa9a50279d722d6b6e7b02322cef948d55d",
+                "shasum": ""
+            },
+            "require": {
+                "michelf/php-markdown": "~1.4",
+                "php": ">=5.3",
+                "symfony/console": "~2.3|~3.0",
+                "symfony/framework-bundle": "~2.3|~3.0",
+                "symfony/twig-bundle": "~2.3|~3.0"
+            },
+            "conflict": {
+                "jms/serializer": "<0.12",
+                "jms/serializer-bundle": "<0.11",
+                "twig/twig": "<1.12"
+            },
+            "require-dev": {
+                "doctrine/doctrine-bundle": "~1.5",
+                "doctrine/orm": "~2.3",
+                "dunglas/api-bundle": "~1.0@dev",
+                "friendsofsymfony/rest-bundle": "~1.0|~2.0",
+                "jms/serializer-bundle": ">=0.11",
+                "sensio/framework-extra-bundle": "~3.0",
+                "symfony/browser-kit": "~2.3|~3.0",
+                "symfony/css-selector": "~2.3|~3.0",
+                "symfony/finder": "~2.3|~3.0",
+                "symfony/form": "~2.3|~3.0",
+                "symfony/phpunit-bridge": "~2.7|~3.0",
+                "symfony/serializer": "~2.7|~3.0",
+                "symfony/validator": "~2.3|~3.0",
+                "symfony/yaml": "~2.3|~3.0"
+            },
+            "suggest": {
+                "dunglas/api-bundle": "For making use of resources definitions of DunglasApiBundle.",
+                "friendsofsymfony/rest-bundle": "For making use of REST information in the doc.",
+                "jms/serializer": "For making use of serializer information in the doc.",
+                "symfony/form": "For using form definitions as input.",
+                "symfony/validator": "For making use of validator information in the doc."
+            },
+            "type": "symfony-bundle",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "2.11-dev"
+                }
+            },
+            "autoload": {
+                "psr-0": {
+                    "Nelmio\\ApiDocBundle": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Nelmio",
+                    "homepage": "http://nelm.io"
+                },
+                {
+                    "name": "Symfony Community",
+                    "homepage": "https://github.com/nelmio/NelmioApiDocBundle/contributors"
+                }
+            ],
+            "description": "Generates documentation for your REST API from annotations",
+            "keywords": [
+                "api",
+                "doc",
+                "documentation",
+                "rest"
+            ],
+            "time": "2015-12-16 15:17:51"
+        },
+        {
+            "name": "patchwork/jsqueeze",
+            "version": "v1.0.7",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/tchwork/jsqueeze.git",
+                "reference": "f90a933213534b93e4ff3c2c3026ff7458f7721b"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/tchwork/jsqueeze/zipball/f90a933213534b93e4ff3c2c3026ff7458f7721b",
+                "reference": "f90a933213534b93e4ff3c2c3026ff7458f7721b",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.1.4"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "JSqueeze": "class/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "(Apache-2.0 or GPL-2.0)"
+            ],
+            "authors": [
+                {
+                    "name": "Nicolas Grekas",
+                    "email": "p@tchwork.com"
+                }
+            ],
+            "description": "Efficient JavaScript minification in PHP",
+            "homepage": "https://github.com/tchwork/jsqueeze",
+            "keywords": [
+                "compression",
+                "javascript",
+                "minification"
+            ],
+            "time": "2015-03-25 10:11:08"
+        },
+        {
+            "name": "phpcollection/phpcollection",
+            "version": "0.4.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/schmittjoh/php-collection.git",
+                "reference": "b8bf55a0a929ca43b01232b36719f176f86c7e83"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/schmittjoh/php-collection/zipball/b8bf55a0a929ca43b01232b36719f176f86c7e83",
+                "reference": "b8bf55a0a929ca43b01232b36719f176f86c7e83",
+                "shasum": ""
+            },
+            "require": {
+                "phpoption/phpoption": "1.*"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "0.3-dev"
+                }
+            },
+            "autoload": {
+                "psr-0": {
+                    "PhpCollection": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "Apache2"
+            ],
+            "authors": [
+                {
+                    "name": "Johannes Schmitt",
+                    "email": "schmittjoh@gmail.com",
+                    "homepage": "https://github.com/schmittjoh",
+                    "role": "Developer of wrapped JMSSerializerBundle"
+                }
+            ],
+            "description": "General-Purpose Collection Library for PHP",
+            "keywords": [
+                "collection",
+                "list",
+                "map",
+                "sequence",
+                "set"
+            ],
+            "time": "2014-03-11 13:46:42"
+        },
+        {
+            "name": "phpoption/phpoption",
+            "version": "1.5.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/schmittjoh/php-option.git",
+                "reference": "94e644f7d2051a5f0fcf77d81605f152eecff0ed"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/schmittjoh/php-option/zipball/94e644f7d2051a5f0fcf77d81605f152eecff0ed",
+                "reference": "94e644f7d2051a5f0fcf77d81605f152eecff0ed",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "4.7.*"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.3-dev"
+                }
+            },
+            "autoload": {
+                "psr-0": {
+                    "PhpOption\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "Apache2"
+            ],
+            "authors": [
+                {
+                    "name": "Johannes M. Schmitt",
+                    "email": "schmittjoh@gmail.com"
+                }
+            ],
+            "description": "Option Type for PHP",
+            "keywords": [
+                "language",
+                "option",
+                "php",
+                "type"
+            ],
+            "time": "2015-07-25 16:39:46"
+        },
+        {
             "name": "psr/log",
             "version": "1.0.0",
             "source": {
@@ -1064,17 +3744,17 @@
         },
         {
             "name": "sensio/distribution-bundle",
-            "version": "v4.0.3",
+            "version": "v4.0.4",
             "target-dir": "Sensio/Bundle/DistributionBundle",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sensiolabs/SensioDistributionBundle.git",
-                "reference": "2d061c01e708c83ede4720e2551d9449bf606c0a"
+                "reference": "cc0c9478da84f051da4465cf3a67f537ae758b13"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sensiolabs/SensioDistributionBundle/zipball/2d061c01e708c83ede4720e2551d9449bf606c0a",
-                "reference": "2d061c01e708c83ede4720e2551d9449bf606c0a",
+                "url": "https://api.github.com/repos/sensiolabs/SensioDistributionBundle/zipball/cc0c9478da84f051da4465cf3a67f537ae758b13",
+                "reference": "cc0c9478da84f051da4465cf3a67f537ae758b13",
                 "shasum": ""
             },
             "require": {
@@ -1120,20 +3800,20 @@
                 "configuration",
                 "distribution"
             ],
-            "time": "2015-10-27 18:48:08"
+            "time": "2015-11-26 18:10:31"
         },
         {
             "name": "sensio/framework-extra-bundle",
-            "version": "v3.0.11",
+            "version": "v3.0.12",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sensiolabs/SensioFrameworkExtraBundle.git",
-                "reference": "a79e205737b58d557c05caef6dfa8f94d8084bca"
+                "reference": "3e8936fe13aa4086644977d334d8fcd275f50357"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sensiolabs/SensioFrameworkExtraBundle/zipball/a79e205737b58d557c05caef6dfa8f94d8084bca",
-                "reference": "a79e205737b58d557c05caef6dfa8f94d8084bca",
+                "url": "https://api.github.com/repos/sensiolabs/SensioFrameworkExtraBundle/zipball/3e8936fe13aa4086644977d334d8fcd275f50357",
+                "reference": "3e8936fe13aa4086644977d334d8fcd275f50357",
                 "shasum": ""
             },
             "require": {
@@ -1175,7 +3855,7 @@
                 "annotations",
                 "controllers"
             ],
-            "time": "2015-10-28 15:47:04"
+            "time": "2015-12-18 17:39:27"
         },
         {
             "name": "sensiolabs/security-checker",
@@ -1405,28 +4085,28 @@
         },
         {
             "name": "symfony/swiftmailer-bundle",
-            "version": "v2.3.8",
+            "version": "v2.3.9",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/swiftmailer-bundle.git",
-                "reference": "970b13d01871207e81d17b17ddda025e7e21e797"
+                "reference": "3d21ada19f23631f558ad6df653b168e35362e78"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/swiftmailer-bundle/zipball/970b13d01871207e81d17b17ddda025e7e21e797",
-                "reference": "970b13d01871207e81d17b17ddda025e7e21e797",
+                "url": "https://api.github.com/repos/symfony/swiftmailer-bundle/zipball/3d21ada19f23631f558ad6df653b168e35362e78",
+                "reference": "3d21ada19f23631f558ad6df653b168e35362e78",
                 "shasum": ""
             },
             "require": {
                 "php": ">=5.3.2",
                 "swiftmailer/swiftmailer": ">=4.2.0,~5.0",
-                "symfony/swiftmailer-bridge": "~2.1"
+                "symfony/config": "~2.3|~3.0",
+                "symfony/dependency-injection": "~2.3|~3.0",
+                "symfony/http-kernel": "~2.3|~3.0",
+                "symfony/yaml": "~2.3|~3.0"
             },
             "require-dev": {
-                "symfony/config": "~2.1",
-                "symfony/dependency-injection": "~2.1",
-                "symfony/http-kernel": "~2.1",
-                "symfony/yaml": "~2.1"
+                "symfony/phpunit-bridge": "~2.7|~3.0"
             },
             "suggest": {
                 "psr/log": "Allows logging"
@@ -1458,20 +4138,20 @@
             ],
             "description": "Symfony SwiftmailerBundle",
             "homepage": "http://symfony.com",
-            "time": "2014-12-01 17:44:50"
+            "time": "2015-11-28 10:59:29"
         },
         {
             "name": "symfony/symfony",
-            "version": "v2.7.7",
+            "version": "v2.7.8",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/symfony.git",
-                "reference": "cc69dbd24b4b2e6de60b2414ef95da2794f459a2"
+                "reference": "ad264021e44a5aaa132f16aef69f92e56795683e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/symfony/zipball/cc69dbd24b4b2e6de60b2414ef95da2794f459a2",
-                "reference": "cc69dbd24b4b2e6de60b2414ef95da2794f459a2",
+                "url": "https://api.github.com/repos/symfony/symfony/zipball/ad264021e44a5aaa132f16aef69f92e56795683e",
+                "reference": "ad264021e44a5aaa132f16aef69f92e56795683e",
                 "shasum": ""
             },
             "require": {
@@ -1582,7 +4262,7 @@
             "keywords": [
                 "framework"
             ],
-            "time": "2015-11-23 11:58:08"
+            "time": "2015-12-26 15:02:06"
         },
         {
             "name": "twig/twig",
@@ -1644,6 +4324,147 @@
                 "templating"
             ],
             "time": "2015-11-05 12:49:06"
+        },
+        {
+            "name": "willdurand/jsonp-callback-validator",
+            "version": "v1.1.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/willdurand/JsonpCallbackValidator.git",
+                "reference": "1a7d388bb521959e612ef50c5c7b1691b097e909"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/willdurand/JsonpCallbackValidator/zipball/1a7d388bb521959e612ef50c5c7b1691b097e909",
+                "reference": "1a7d388bb521959e612ef50c5c7b1691b097e909",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "~3.7"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "JsonpCallbackValidator": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "William Durand",
+                    "email": "william.durand1@gmail.com",
+                    "homepage": "http://www.willdurand.fr"
+                }
+            ],
+            "description": "JSONP callback validator.",
+            "time": "2014-01-20 22:35:06"
+        },
+        {
+            "name": "willdurand/negotiation",
+            "version": "1.5.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/willdurand/Negotiation.git",
+                "reference": "2a59f2376557303e3fa91465ab691abb82945edf"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/willdurand/Negotiation/zipball/2a59f2376557303e3fa91465ab691abb82945edf",
+                "reference": "2a59f2376557303e3fa91465ab691abb82945edf",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.0"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.5-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Negotiation\\": "src/Negotiation"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "William Durand",
+                    "email": "william.durand1@gmail.com"
+                }
+            ],
+            "description": "Content Negotiation tools for PHP provided as a standalone library.",
+            "homepage": "http://williamdurand.fr/Negotiation/",
+            "keywords": [
+                "accept",
+                "content",
+                "format",
+                "header",
+                "negotiation"
+            ],
+            "time": "2015-10-01 07:42:40"
+        },
+        {
+            "name": "willdurand/rest-extra-bundle",
+            "version": "v1.0.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/willdurand/BazingaRestExtraBundle.git",
+                "reference": "18ac17a5e651cc5237cb4b43898698f72b3b9912"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/willdurand/BazingaRestExtraBundle/zipball/18ac17a5e651cc5237cb4b43898698f72b3b9912",
+                "reference": "18ac17a5e651cc5237cb4b43898698f72b3b9912",
+                "shasum": ""
+            },
+            "require": {
+                "symfony/framework-bundle": "~2.1"
+            },
+            "require-dev": {
+                "sensio/framework-extra-bundle": "~2.1",
+                "symfony/browser-kit": "~2.1",
+                "symfony/finder": "~2.1",
+                "symfony/form": "~2.1",
+                "symfony/yaml": "~2.1"
+            },
+            "type": "symfony-bundle",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.0-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Bazinga\\Bundle\\RestExtraBundle\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "William Durand",
+                    "email": "william.durand1@gmail.com"
+                }
+            ],
+            "description": "This bundle provides extra features for your REST APIs built using Symfony2.",
+            "keywords": [
+                "api",
+                "rest"
+            ],
+            "time": "2014-08-23 16:56:20"
         }
     ],
     "packages-dev": [
@@ -1697,20 +4518,20 @@
         },
         {
             "name": "symfony/phpunit-bridge",
-            "version": "v2.7.7",
+            "version": "v2.8.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/phpunit-bridge.git",
-                "reference": "e960e64acbed50e49818eb78840486c8d7fe1bed"
+                "reference": "2deb2ccbe184948ae4e85e7b99e962738d3d2d69"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/phpunit-bridge/zipball/e960e64acbed50e49818eb78840486c8d7fe1bed",
-                "reference": "e960e64acbed50e49818eb78840486c8d7fe1bed",
+                "url": "https://api.github.com/repos/symfony/phpunit-bridge/zipball/2deb2ccbe184948ae4e85e7b99e962738d3d2d69",
+                "reference": "2deb2ccbe184948ae4e85e7b99e962738d3d2d69",
                 "shasum": ""
             },
             "require": {
-                "php": ">=5.3.9"
+                "php": ">=5.3.3"
             },
             "suggest": {
                 "symfony/debug": "For tracking deprecated interfaces usages at runtime with DebugClassLoader"
@@ -1718,7 +4539,7 @@
             "type": "symfony-bridge",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "2.7-dev"
+                    "dev-master": "2.8-dev"
                 }
             },
             "autoload": {
@@ -1748,22 +4569,44 @@
             ],
             "description": "Symfony PHPUnit Bridge",
             "homepage": "https://symfony.com",
-            "time": "2015-11-06 10:15:01"
+            "time": "2015-12-11 08:57:52"
         }
     ],
-    "aliases": [
-
-    ],
+    "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": [
-
-    ],
+    "stability-flags": {
+        "ais/bimbinganbundle": 20,
+        "ais/daftarbundle": 20,
+        "ais/dosenbundle": 20,
+        "ais/gedungbundle": 20,
+        "ais/haribundle": 20,
+        "ais/ijasahsmabundle": 20,
+        "ais/jadwalbundle": 20,
+        "ais/kabupatenbundle": 20,
+        "ais/kontrakmahasiswabundle": 20,
+        "ais/kontrakdosenbundle": 20,
+        "ais/mahasiswaprofilebundle": 20,
+        "ais/mahasiswabundle": 20,
+        "ais/matakuliahbundle": 20,
+        "ais/pertemuanbundle": 20,
+        "ais/pertemuandosenbundle": 20,
+        "ais/pertemuanmahasiswabundle": 20,
+        "ais/pimpinanprodibundle": 20,
+        "ais/prestasibundle": 20,
+        "ais/prodibundle": 20,
+        "ais/provinsibundle": 20,
+        "ais/ruangbundle": 20,
+        "ais/semesterbundle": 20,
+        "ais/slotbundle": 20,
+        "ais/statuskeaktifanbundle": 20,
+        "ais/transkripbundle": 20,
+        "ais/userbundle": 20,
+        "ais/wisudabundle": 20
+    },
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": {
         "php": ">=5.3.9"
     },
-    "platform-dev": [
-
-    ]
+    "platform-dev": []
 }

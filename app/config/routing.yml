@@ -1,3 +1,142 @@
 app:
     resource: "@AppBundle/Controller/"
     type:     annotation
+
+ais_bimbingans:
+    type: rest
+    prefix: /api
+    resource: "@AisBimbinganBundle/Resources/config/routes.yml"
+
+ais_daftars:
+    type: rest
+    prefix: /api
+    resource: "@AisDaftarBundle/Resources/config/routes.yml"
+    
+ais_dosens:
+    type: rest
+    prefix: /api
+    resource: "@AisDosenBundle/Resources/config/routes.yml"
+
+ais_gedungs:
+    type: rest
+    prefix: /api
+    resource: "@AisGedungBundle/Resources/config/routes.yml"
+
+ais_haris:
+    type: rest
+    prefix: /api
+    resource: "@AisHariBundle/Resources/config/routes.yml"
+
+ais_ijasahsmas:
+    type: rest
+    prefix: /api
+    resource: "@AisIjasahSmaBundle/Resources/config/routes.yml"
+
+ais_jadwals:
+    type: rest
+    prefix: /api
+    resource: "@AisJadwalBundle/Resources/config/routes.yml"
+
+ais_kabupatens:
+    type: rest
+    prefix: /api
+    resource: "@AisKabupatenBundle/Resources/config/routes.yml"
+
+ais_kontrakmahasiswas:
+    type: rest
+    prefix: /api
+    resource: "@AisKontrakMahasiswaBundle/Resources/config/routes.yml"
+
+ais_kontrakdosens:
+    type: rest
+    prefix: /api
+    resource: "@AisKontrakDosenBundle/Resources/config/routes.yml"
+
+ais_mahasiswaprofiles:
+    type: rest
+    prefix: /api
+    resource: "@AisMahasiswaProfileBundle/Resources/config/routes.yml"
+
+ais_mahasiswas:
+    type: rest
+    prefix: /api
+    resource: "@AisMahasiswaBundle/Resources/config/routes.yml"
+
+ais_matakuliahs:
+    type: rest
+    prefix: /api
+    resource: "@AisMatakuliahBundle/Resources/config/routes.yml"
+
+ais_pertemuans:
+    type: rest
+    prefix: /api
+    resource: "@AisPertemuanBundle/Resources/config/routes.yml"
+
+ais_pertemuandosens:
+    type: rest
+    prefix: /api
+    resource: "@AisPertemuanDosenBundle/Resources/config/routes.yml"
+
+ais_pertemuanmahasiswas:
+    type: rest
+    prefix: /api
+    resource: "@AisPertemuanMahasiswaBundle/Resources/config/routes.yml"
+
+ais_pimpinanprodis:
+    type: rest
+    prefix: /api
+    resource: "@AisPimpinanProdiBundle/Resources/config/routes.yml"
+
+ais_prestasis:
+    type: rest
+    prefix: /api
+    resource: "@AisPrestasiBundle/Resources/config/routes.yml"
+
+ais_prodis:
+    type: rest
+    prefix: /api
+    resource: "@AisProdiBundle/Resources/config/routes.yml"
+
+ais_provinsis:
+    type: rest
+    prefix: /api
+    resource: "@AisProvinsiBundle/Resources/config/routes.yml"
+
+ais_ruangs:
+    type: rest
+    prefix: /api
+    resource: "@AisRuangBundle/Resources/config/routes.yml"
+
+ais_semesters:
+    type: rest
+    prefix: /api
+    resource: "@AisSemesterBundle/Resources/config/routes.yml"
+
+ais_slots:
+    type: rest
+    prefix: /api
+    resource: "@AisSlotBundle/Resources/config/routes.yml"
+
+ais_statuskeaktifans:
+    type: rest
+    prefix: /api
+    resource: "@AisStatusKeaktifanBundle/Resources/config/routes.yml"
+
+ais_transkrips:
+    type: rest
+    prefix: /api
+    resource: "@AisTranskripBundle/Resources/config/routes.yml"
+
+ais_users:
+    type: rest
+    prefix: /api
+    resource: "@AisUserBundle/Resources/config/routes.yml"
+
+ais_wisudas:
+    type: rest
+    prefix: /api
+    resource: "@AisWisudaBundle/Resources/config/routes.yml"
+
+NelmioApiDocBundle:
+    resource: "@NelmioApiDocBundle/Resources/config/routing.yml"
+    prefix:   /api/doc
