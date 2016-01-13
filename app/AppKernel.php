@@ -47,6 +47,7 @@ class AppKernel extends Kernel
 			new Ais\TranskripBundle\AisTranskripBundle(),
 			new Ais\UserBundle\AisUserBundle(),
 			new Ais\WisudaBundle\AisWisudaBundle(),
+			new FOS\OAuthServerBundle\FOSOAuthServerBundle(),
         );
 
         if (in_array($this->getEnvironment(), array('dev', 'test'), true)) {

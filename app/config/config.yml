@@ -78,9 +78,24 @@ swiftmailer:
     username:  "%mailer_user%"
     password:  "%mailer_password%"
     spool:     { type: memory }
+
+fos_oauth_server:
+    db_driver: orm
+    client_class:        Ais\UserBundle\Entity\Client
+    access_token_class:  Ais\UserBundle\Entity\AccessToken
+    refresh_token_class: Ais\UserBundle\Entity\RefreshToken
+    auth_code_class:     Ais\UserBundle\Entity\AuthCode
+    service:
+        user_provider: ais_user.user.provider
+        options:
+            supported_scopes: user
+
+nelmio_api_doc:
+    name: AIS Academic Information System Service API List
+
 fos_rest:
     serializer:
-        serialize_null: true
+        serialize_null: false
     view:
 # default_engine: php
         view_response_listener: force
@@ -113,6 +128,3 @@ fos_rest:
             'Symfony\Component\Routing\Exception\ResourceNotFoundException': 404
         messages:
             'Symfony\Component\Routing\Exception\ResourceNotFoundException': true
-
-nelmio_api_doc:
-    name: Page API

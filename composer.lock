@@ -14,12 +14,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/theredfoxfire/ais-bimbingan-bundle.git",
-                "reference": "15b82e164a274c3fe5da01c2148388d89a5bb040"
+                "reference": "8e2fa53278b12c5a710a623bfa67ab057ecc68f6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/theredfoxfire/ais-bimbingan-bundle/zipball/15b82e164a274c3fe5da01c2148388d89a5bb040",
-                "reference": "15b82e164a274c3fe5da01c2148388d89a5bb040",
+                "url": "https://api.github.com/repos/theredfoxfire/ais-bimbingan-bundle/zipball/8e2fa53278b12c5a710a623bfa67ab057ecc68f6",
+                "reference": "8e2fa53278b12c5a710a623bfa67ab057ecc68f6",
                 "shasum": ""
             },
             "require": {
@@ -74,7 +74,7 @@
             "keywords": [
                 "Bimbingan Bundle"
             ],
-            "time": "2015-12-22 12:55:01"
+            "time": "2016-01-10 09:52:47"
         },
         {
             "name": "ais/daftarbundle",
@@ -83,12 +83,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/theredfoxfire/ais-daftar-bundle.git",
-                "reference": "39f87352d847f9b37faa3abb3fbc43407fb8430a"
+                "reference": "7ed4b2548603612045f8f2104ab661abdc4f804f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/theredfoxfire/ais-daftar-bundle/zipball/39f87352d847f9b37faa3abb3fbc43407fb8430a",
-                "reference": "39f87352d847f9b37faa3abb3fbc43407fb8430a",
+                "url": "https://api.github.com/repos/theredfoxfire/ais-daftar-bundle/zipball/7ed4b2548603612045f8f2104ab661abdc4f804f",
+                "reference": "7ed4b2548603612045f8f2104ab661abdc4f804f",
                 "shasum": ""
             },
             "require": {
@@ -143,7 +143,7 @@
             "keywords": [
                 "Daftar Bundle"
             ],
-            "time": "2015-12-21 08:51:04"
+            "time": "2016-01-10 04:07:17"
         },
         {
             "name": "ais/dosenbundle",
@@ -152,12 +152,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/theredfoxfire/ais-dosen-bundle.git",
-                "reference": "cc45d43f9d7cc29e7cfd71e46484a3e886829b7a"
+                "reference": "e510b040d930afcbd47bfecd5e5274e397f4ba7c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/theredfoxfire/ais-dosen-bundle/zipball/cc45d43f9d7cc29e7cfd71e46484a3e886829b7a",
-                "reference": "cc45d43f9d7cc29e7cfd71e46484a3e886829b7a",
+                "url": "https://api.github.com/repos/theredfoxfire/ais-dosen-bundle/zipball/e510b040d930afcbd47bfecd5e5274e397f4ba7c",
+                "reference": "e510b040d930afcbd47bfecd5e5274e397f4ba7c",
                 "shasum": ""
             },
             "require": {
@@ -212,7 +212,7 @@
             "keywords": [
                 "Dosen Bundle"
             ],
-            "time": "2015-12-21 09:56:04"
+            "time": "2016-01-11 02:40:41"
         },
         {
             "name": "ais/gedungbundle",
@@ -221,12 +221,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/theredfoxfire/ais-gedung-bundle.git",
-                "reference": "25e71896d5e91841bd1c5b4abffb8db882112a10"
+                "reference": "bf1f998040319f1ef1e82070094af0ef7503e7a8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/theredfoxfire/ais-gedung-bundle/zipball/25e71896d5e91841bd1c5b4abffb8db882112a10",
-                "reference": "25e71896d5e91841bd1c5b4abffb8db882112a10",
+                "url": "https://api.github.com/repos/theredfoxfire/ais-gedung-bundle/zipball/bf1f998040319f1ef1e82070094af0ef7503e7a8",
+                "reference": "bf1f998040319f1ef1e82070094af0ef7503e7a8",
                 "shasum": ""
             },
             "require": {
@@ -281,7 +281,7 @@
             "keywords": [
                 "Gedung Bundle"
             ],
-            "time": "2015-12-22 07:03:46"
+            "time": "2016-01-11 02:42:28"
         },
         {
             "name": "ais/haribundle",
@@ -290,12 +290,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/theredfoxfire/ais-hari-bundle.git",
-                "reference": "a05176f4041538f8e1d2a5f8c6b16b00cf9390e9"
+                "reference": "de3eb450be933c535e71b241fb941be542b8b8eb"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/theredfoxfire/ais-hari-bundle/zipball/a05176f4041538f8e1d2a5f8c6b16b00cf9390e9",
-                "reference": "a05176f4041538f8e1d2a5f8c6b16b00cf9390e9",
+                "url": "https://api.github.com/repos/theredfoxfire/ais-hari-bundle/zipball/de3eb450be933c535e71b241fb941be542b8b8eb",
+                "reference": "de3eb450be933c535e71b241fb941be542b8b8eb",
                 "shasum": ""
             },
             "require": {
@@ -350,7 +350,7 @@
             "keywords": [
                 "Hari Bundle"
             ],
-            "time": "2015-12-22 07:37:18"
+            "time": "2016-01-11 02:53:08"
         },
         {
             "name": "ais/ijasahsmabundle",
@@ -428,12 +428,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/theredfoxfire/ais-jadwal-bundle.git",
-                "reference": "dd2a3aac4fa32d265ade6eda9441a0ff872cc2b7"
+                "reference": "551be337fe80556297ce253c4d8c771fbb2e20bd"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/theredfoxfire/ais-jadwal-bundle/zipball/dd2a3aac4fa32d265ade6eda9441a0ff872cc2b7",
-                "reference": "dd2a3aac4fa32d265ade6eda9441a0ff872cc2b7",
+                "url": "https://api.github.com/repos/theredfoxfire/ais-jadwal-bundle/zipball/551be337fe80556297ce253c4d8c771fbb2e20bd",
+                "reference": "551be337fe80556297ce253c4d8c771fbb2e20bd",
                 "shasum": ""
             },
             "require": {
@@ -488,7 +488,7 @@
             "keywords": [
                 "Jadwal Bundle"
             ],
-            "time": "2016-01-07 03:46:27"
+            "time": "2016-01-11 03:30:11"
         },
         {
             "name": "ais/kabupatenbundle",
@@ -497,12 +497,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/theredfoxfire/ais-kabupaten-bundle.git",
-                "reference": "e784dafd8df952fab349632b94ea074e1860ab48"
+                "reference": "a6fb5e726b6e3ca4ece98d2ce13f871330fa03a3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/theredfoxfire/ais-kabupaten-bundle/zipball/e784dafd8df952fab349632b94ea074e1860ab48",
-                "reference": "e784dafd8df952fab349632b94ea074e1860ab48",
+                "url": "https://api.github.com/repos/theredfoxfire/ais-kabupaten-bundle/zipball/a6fb5e726b6e3ca4ece98d2ce13f871330fa03a3",
+                "reference": "a6fb5e726b6e3ca4ece98d2ce13f871330fa03a3",
                 "shasum": ""
             },
             "require": {
@@ -557,7 +557,7 @@
             "keywords": [
                 "Kabupaten Bundle"
             ],
-            "time": "2015-12-22 13:01:25"
+            "time": "2016-01-11 03:57:06"
         },
         {
             "name": "ais/kontrakdosenbundle",
@@ -566,12 +566,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/theredfoxfire/ais-kontrak-dosen-bundle.git",
-                "reference": "813a5133e9a706936d52bebeaf1962627700de70"
+                "reference": "122638be0b2de8b7cd9a384b8a1b89b84427e677"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/theredfoxfire/ais-kontrak-dosen-bundle/zipball/813a5133e9a706936d52bebeaf1962627700de70",
-                "reference": "813a5133e9a706936d52bebeaf1962627700de70",
+                "url": "https://api.github.com/repos/theredfoxfire/ais-kontrak-dosen-bundle/zipball/122638be0b2de8b7cd9a384b8a1b89b84427e677",
+                "reference": "122638be0b2de8b7cd9a384b8a1b89b84427e677",
                 "shasum": ""
             },
             "require": {
@@ -626,7 +626,7 @@
             "keywords": [
                 "KontrakDosen Bundle"
             ],
-            "time": "2015-12-22 13:03:27"
+            "time": "2016-01-11 04:49:14"
         },
         {
             "name": "ais/kontrakmahasiswabundle",
@@ -635,12 +635,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/theredfoxfire/ais-kontrak-mahasiswa-bundle.git",
-                "reference": "351b2b6fc26087d93626f31d94575210497afdb6"
+                "reference": "1a76f166ee606b768095aa55d9602e327e9de8f4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/theredfoxfire/ais-kontrak-mahasiswa-bundle/zipball/351b2b6fc26087d93626f31d94575210497afdb6",
-                "reference": "351b2b6fc26087d93626f31d94575210497afdb6",
+                "url": "https://api.github.com/repos/theredfoxfire/ais-kontrak-mahasiswa-bundle/zipball/1a76f166ee606b768095aa55d9602e327e9de8f4",
+                "reference": "1a76f166ee606b768095aa55d9602e327e9de8f4",
                 "shasum": ""
             },
             "require": {
@@ -695,7 +695,7 @@
             "keywords": [
                 "KontrakMahasiswa Bundle"
             ],
-            "time": "2015-12-22 13:04:56"
+            "time": "2016-01-11 04:52:36"
         },
         {
             "name": "ais/mahasiswabundle",
@@ -704,12 +704,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/theredfoxfire/ais-mahasiswa-bundle.git",
-                "reference": "d3ece170bdb5e14675046ba6945de8c557e91d42"
+                "reference": "5687b9f1592f5463b44d489b70e78c38eff21e31"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/theredfoxfire/ais-mahasiswa-bundle/zipball/d3ece170bdb5e14675046ba6945de8c557e91d42",
-                "reference": "d3ece170bdb5e14675046ba6945de8c557e91d42",
+                "url": "https://api.github.com/repos/theredfoxfire/ais-mahasiswa-bundle/zipball/5687b9f1592f5463b44d489b70e78c38eff21e31",
+                "reference": "5687b9f1592f5463b44d489b70e78c38eff21e31",
                 "shasum": ""
             },
             "require": {
@@ -764,7 +764,7 @@
             "keywords": [
                 "Dosen Bundle"
             ],
-            "time": "2016-01-07 04:03:18"
+            "time": "2016-01-11 04:53:59"
         },
         {
             "name": "ais/mahasiswaprofilebundle",
@@ -773,12 +773,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/theredfoxfire/ais-mahasiswa-profile-bundle.git",
-                "reference": "f1cef8aa1fe8f2d4e5097eca3fbb948bad2040d4"
+                "reference": "0169dc0fdc938d59c9d56370c7ce8757afa93c14"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/theredfoxfire/ais-mahasiswa-profile-bundle/zipball/f1cef8aa1fe8f2d4e5097eca3fbb948bad2040d4",
-                "reference": "f1cef8aa1fe8f2d4e5097eca3fbb948bad2040d4",
+                "url": "https://api.github.com/repos/theredfoxfire/ais-mahasiswa-profile-bundle/zipball/0169dc0fdc938d59c9d56370c7ce8757afa93c14",
+                "reference": "0169dc0fdc938d59c9d56370c7ce8757afa93c14",
                 "shasum": ""
             },
             "require": {
@@ -833,7 +833,7 @@
             "keywords": [
                 "MahasiswaProfile Bundle"
             ],
-            "time": "2015-12-22 13:08:02"
+            "time": "2016-01-11 05:03:01"
         },
         {
             "name": "ais/matakuliahbundle",
@@ -842,12 +842,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/theredfoxfire/ais-matakuliah-bundle.git",
-                "reference": "738c401afa3fd4699ae619bcbb82b8d1ae5ac00e"
+                "reference": "6ee733176116fd5fb8bc5c06ad4b3276d9471bce"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/theredfoxfire/ais-matakuliah-bundle/zipball/738c401afa3fd4699ae619bcbb82b8d1ae5ac00e",
-                "reference": "738c401afa3fd4699ae619bcbb82b8d1ae5ac00e",
+                "url": "https://api.github.com/repos/theredfoxfire/ais-matakuliah-bundle/zipball/6ee733176116fd5fb8bc5c06ad4b3276d9471bce",
+                "reference": "6ee733176116fd5fb8bc5c06ad4b3276d9471bce",
                 "shasum": ""
             },
             "require": {
@@ -902,7 +902,7 @@
             "keywords": [
                 "Dosen Bundle"
             ],
-            "time": "2016-01-07 04:14:17"
+            "time": "2016-01-11 05:04:16"
         },
         {
             "name": "ais/pertemuanbundle",
@@ -911,12 +911,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/theredfoxfire/ais-pertemuan-bundle.git",
-                "reference": "ce9b93a9e4158b92fad32189904bf27d7c6964b3"
+                "reference": "78854ef2d7c0fa1048d24665fb5aae67e6620442"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/theredfoxfire/ais-pertemuan-bundle/zipball/ce9b93a9e4158b92fad32189904bf27d7c6964b3",
-                "reference": "ce9b93a9e4158b92fad32189904bf27d7c6964b3",
+                "url": "https://api.github.com/repos/theredfoxfire/ais-pertemuan-bundle/zipball/78854ef2d7c0fa1048d24665fb5aae67e6620442",
+                "reference": "78854ef2d7c0fa1048d24665fb5aae67e6620442",
                 "shasum": ""
             },
             "require": {
@@ -971,7 +971,7 @@
             "keywords": [
                 "Pertemuan Bundle"
             ],
-            "time": "2016-01-07 05:04:50"
+            "time": "2016-01-11 05:12:45"
         },
         {
             "name": "ais/pertemuandosenbundle",
@@ -980,12 +980,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/theredfoxfire/ais-pertemuan-dosen-bundle.git",
-                "reference": "5dd2c0e6b2c8ee99ed10229057067a99ab485b7f"
+                "reference": "7ad13d61dcfabd8c290c7c6aba592d5a0400badf"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/theredfoxfire/ais-pertemuan-dosen-bundle/zipball/5dd2c0e6b2c8ee99ed10229057067a99ab485b7f",
-                "reference": "5dd2c0e6b2c8ee99ed10229057067a99ab485b7f",
+                "url": "https://api.github.com/repos/theredfoxfire/ais-pertemuan-dosen-bundle/zipball/7ad13d61dcfabd8c290c7c6aba592d5a0400badf",
+                "reference": "7ad13d61dcfabd8c290c7c6aba592d5a0400badf",
                 "shasum": ""
             },
             "require": {
@@ -1040,7 +1040,7 @@
             "keywords": [
                 "PertemuanDosen Bundle"
             ],
-            "time": "2015-12-22 12:43:46"
+            "time": "2016-01-11 05:28:01"
         },
         {
             "name": "ais/pertemuanmahasiswabundle",
@@ -1049,12 +1049,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/theredfoxfire/ais-pertemuan-mahasiswa-bundle.git",
-                "reference": "0491dce2c9b4cea2a7890f5c57dad695de1d5327"
+                "reference": "c656fea7b5cdba370b9875956dc2d85571f8de10"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/theredfoxfire/ais-pertemuan-mahasiswa-bundle/zipball/0491dce2c9b4cea2a7890f5c57dad695de1d5327",
-                "reference": "0491dce2c9b4cea2a7890f5c57dad695de1d5327",
+                "url": "https://api.github.com/repos/theredfoxfire/ais-pertemuan-mahasiswa-bundle/zipball/c656fea7b5cdba370b9875956dc2d85571f8de10",
+                "reference": "c656fea7b5cdba370b9875956dc2d85571f8de10",
                 "shasum": ""
             },
             "require": {
@@ -1109,7 +1109,7 @@
             "keywords": [
                 "PertemuanMahasiswa Bundle"
             ],
-            "time": "2015-12-22 12:45:20"
+            "time": "2016-01-11 05:34:49"
         },
         {
             "name": "ais/pimpinanprodibundle",
@@ -1118,12 +1118,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/theredfoxfire/ais-pimpinan-prodi-bundle.git",
-                "reference": "b31c323900ca854918cab4e82834257daadd4c5d"
+                "reference": "69dbd26d0a33c7e3c7ffd37c51a7a736cfb59c77"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/theredfoxfire/ais-pimpinan-prodi-bundle/zipball/b31c323900ca854918cab4e82834257daadd4c5d",
-                "reference": "b31c323900ca854918cab4e82834257daadd4c5d",
+                "url": "https://api.github.com/repos/theredfoxfire/ais-pimpinan-prodi-bundle/zipball/69dbd26d0a33c7e3c7ffd37c51a7a736cfb59c77",
+                "reference": "69dbd26d0a33c7e3c7ffd37c51a7a736cfb59c77",
                 "shasum": ""
             },
             "require": {
@@ -1178,7 +1178,7 @@
             "keywords": [
                 "PimpinanProdi Bundle"
             ],
-            "time": "2015-12-22 12:47:32"
+            "time": "2016-01-11 05:38:32"
         },
         {
             "name": "ais/prestasibundle",
@@ -1187,12 +1187,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/theredfoxfire/ais-prestasi-bundle.git",
-                "reference": "82bb36916e26513eaa1242184d2fa40cf459b549"
+                "reference": "ace2ecc5cb9e30601b1da4551c34fd6deb637623"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/theredfoxfire/ais-prestasi-bundle/zipball/82bb36916e26513eaa1242184d2fa40cf459b549",
-                "reference": "82bb36916e26513eaa1242184d2fa40cf459b549",
+                "url": "https://api.github.com/repos/theredfoxfire/ais-prestasi-bundle/zipball/ace2ecc5cb9e30601b1da4551c34fd6deb637623",
+                "reference": "ace2ecc5cb9e30601b1da4551c34fd6deb637623",
                 "shasum": ""
             },
             "require": {
@@ -1247,7 +1247,7 @@
             "keywords": [
                 "Prestasi Bundle"
             ],
-            "time": "2015-12-22 12:49:09"
+            "time": "2016-01-11 05:40:41"
         },
         {
             "name": "ais/prodibundle",
@@ -1256,12 +1256,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/theredfoxfire/ais-prodi-bundle.git",
-                "reference": "b673c91db52725a5ae3b00a587dbedf09ab73f30"
+                "reference": "32c1f31f5e92cb73fe96c17402a9f645d64e10fa"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/theredfoxfire/ais-prodi-bundle/zipball/b673c91db52725a5ae3b00a587dbedf09ab73f30",
-                "reference": "b673c91db52725a5ae3b00a587dbedf09ab73f30",
+                "url": "https://api.github.com/repos/theredfoxfire/ais-prodi-bundle/zipball/32c1f31f5e92cb73fe96c17402a9f645d64e10fa",
+                "reference": "32c1f31f5e92cb73fe96c17402a9f645d64e10fa",
                 "shasum": ""
             },
             "require": {
@@ -1316,7 +1316,7 @@
             "keywords": [
                 "Prodi Bundle"
             ],
-            "time": "2015-12-22 07:46:15"
+            "time": "2016-01-11 05:42:28"
         },
         {
             "name": "ais/provinsibundle",
@@ -1325,12 +1325,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/theredfoxfire/ais-provinsi-bundle.git",
-                "reference": "b14c4ca80e52ff3270443bf768532c1722a2f82c"
+                "reference": "a91fce691d545674523cc2b1307989de12f85cfa"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/theredfoxfire/ais-provinsi-bundle/zipball/b14c4ca80e52ff3270443bf768532c1722a2f82c",
-                "reference": "b14c4ca80e52ff3270443bf768532c1722a2f82c",
+                "url": "https://api.github.com/repos/theredfoxfire/ais-provinsi-bundle/zipball/a91fce691d545674523cc2b1307989de12f85cfa",
+                "reference": "a91fce691d545674523cc2b1307989de12f85cfa",
                 "shasum": ""
             },
             "require": {
@@ -1385,7 +1385,7 @@
             "keywords": [
                 "Provinsi Bundle"
             ],
-            "time": "2015-12-22 07:53:33"
+            "time": "2016-01-11 05:44:47"
         },
         {
             "name": "ais/ruangbundle",
@@ -1394,12 +1394,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/theredfoxfire/ais-ruang-bundle.git",
-                "reference": "b89b8c34afbf36291aa9fe5c6d93476d1a13ba69"
+                "reference": "ec4e62c6c2523ff0d5bd290e65942caf678cac28"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/theredfoxfire/ais-ruang-bundle/zipball/b89b8c34afbf36291aa9fe5c6d93476d1a13ba69",
-                "reference": "b89b8c34afbf36291aa9fe5c6d93476d1a13ba69",
+                "url": "https://api.github.com/repos/theredfoxfire/ais-ruang-bundle/zipball/ec4e62c6c2523ff0d5bd290e65942caf678cac28",
+                "reference": "ec4e62c6c2523ff0d5bd290e65942caf678cac28",
                 "shasum": ""
             },
             "require": {
@@ -1454,7 +1454,7 @@
             "keywords": [
                 "Ruang Bundle"
             ],
-            "time": "2015-12-22 07:50:29"
+            "time": "2016-01-11 05:50:48"
         },
         {
             "name": "ais/semesterbundle",
@@ -1463,12 +1463,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/theredfoxfire/ais-semester-bundle.git",
-                "reference": "00615efba22447bd719597a6b5c9df3ec62407ae"
+                "reference": "6778455c10d7c16e91f9d0d029f2b70467b39737"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/theredfoxfire/ais-semester-bundle/zipball/00615efba22447bd719597a6b5c9df3ec62407ae",
-                "reference": "00615efba22447bd719597a6b5c9df3ec62407ae",
+                "url": "https://api.github.com/repos/theredfoxfire/ais-semester-bundle/zipball/6778455c10d7c16e91f9d0d029f2b70467b39737",
+                "reference": "6778455c10d7c16e91f9d0d029f2b70467b39737",
                 "shasum": ""
             },
             "require": {
@@ -1523,7 +1523,7 @@
             "keywords": [
                 "Semester Bundle"
             ],
-            "time": "2015-12-22 07:55:53"
+            "time": "2016-01-11 05:52:52"
         },
         {
             "name": "ais/slotbundle",
@@ -1532,12 +1532,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/theredfoxfire/ais-slot-bundle.git",
-                "reference": "0d010ec34eff7d53117dd8ede09b5c638d07482a"
+                "reference": "35c2e0601a1fa80076a2bb6df65f47c5e1ff70db"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/theredfoxfire/ais-slot-bundle/zipball/0d010ec34eff7d53117dd8ede09b5c638d07482a",
-                "reference": "0d010ec34eff7d53117dd8ede09b5c638d07482a",
+                "url": "https://api.github.com/repos/theredfoxfire/ais-slot-bundle/zipball/35c2e0601a1fa80076a2bb6df65f47c5e1ff70db",
+                "reference": "35c2e0601a1fa80076a2bb6df65f47c5e1ff70db",
                 "shasum": ""
             },
             "require": {
@@ -1592,7 +1592,7 @@
             "keywords": [
                 "Slot Bundle"
             ],
-            "time": "2015-12-22 07:42:37"
+            "time": "2016-01-11 05:59:34"
         },
         {
             "name": "ais/statuskeaktifanbundle",
@@ -1601,12 +1601,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/theredfoxfire/ais-status-keaktifan-bundle.git",
-                "reference": "1d40d9e20bf369a1b4e7fe95a3df51bfa3bbdd73"
+                "reference": "3ac0ddb15310d369b4892e01b79dbcc02760da6f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/theredfoxfire/ais-status-keaktifan-bundle/zipball/1d40d9e20bf369a1b4e7fe95a3df51bfa3bbdd73",
-                "reference": "1d40d9e20bf369a1b4e7fe95a3df51bfa3bbdd73",
+                "url": "https://api.github.com/repos/theredfoxfire/ais-status-keaktifan-bundle/zipball/3ac0ddb15310d369b4892e01b79dbcc02760da6f",
+                "reference": "3ac0ddb15310d369b4892e01b79dbcc02760da6f",
                 "shasum": ""
             },
             "require": {
@@ -1661,7 +1661,7 @@
             "keywords": [
                 "StatusKeaktifan Bundle"
             ],
-            "time": "2015-12-22 07:08:21"
+            "time": "2016-01-11 06:00:56"
         },
         {
             "name": "ais/transkripbundle",
@@ -1670,12 +1670,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/theredfoxfire/ais-transkrip-bundle.git",
-                "reference": "e3a09954fe82a66c9c30cdcfbd953d121366d8fc"
+                "reference": "d240f97829acf84be324935c1e1b8e11e1b03cf2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/theredfoxfire/ais-transkrip-bundle/zipball/e3a09954fe82a66c9c30cdcfbd953d121366d8fc",
-                "reference": "e3a09954fe82a66c9c30cdcfbd953d121366d8fc",
+                "url": "https://api.github.com/repos/theredfoxfire/ais-transkrip-bundle/zipball/d240f97829acf84be324935c1e1b8e11e1b03cf2",
+                "reference": "d240f97829acf84be324935c1e1b8e11e1b03cf2",
                 "shasum": ""
             },
             "require": {
@@ -1730,7 +1730,7 @@
             "keywords": [
                 "Transkrip Bundle"
             ],
-            "time": "2015-12-22 07:33:26"
+            "time": "2016-01-11 06:02:19"
         },
         {
             "name": "ais/userbundle",
@@ -1739,12 +1739,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/theredfoxfire/ais-user-bundle.git",
-                "reference": "ca31921142f9ebb0c688da4cb51b23e21f0c7d1f"
+                "reference": "832da5a7cd87618df6a40a46158c3bb411dce6fe"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/theredfoxfire/ais-user-bundle/zipball/ca31921142f9ebb0c688da4cb51b23e21f0c7d1f",
-                "reference": "ca31921142f9ebb0c688da4cb51b23e21f0c7d1f",
+                "url": "https://api.github.com/repos/theredfoxfire/ais-user-bundle/zipball/832da5a7cd87618df6a40a46158c3bb411dce6fe",
+                "reference": "832da5a7cd87618df6a40a46158c3bb411dce6fe",
                 "shasum": ""
             },
             "require": {
@@ -1800,7 +1800,7 @@
             "keywords": [
                 "user bundle"
             ],
-            "time": "2016-01-07 03:06:51"
+            "time": "2016-01-13 10:50:42"
         },
         {
             "name": "ais/wisudabundle",
@@ -1809,12 +1809,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/theredfoxfire/ais-wisuda-bundle.git",
-                "reference": "92143e9e456785652c2772533633168c2ef7d21f"
+                "reference": "eb1f0cf3d41531f9b6435d2d2aea81f3e35e76fa"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/theredfoxfire/ais-wisuda-bundle/zipball/92143e9e456785652c2772533633168c2ef7d21f",
-                "reference": "92143e9e456785652c2772533633168c2ef7d21f",
+                "url": "https://api.github.com/repos/theredfoxfire/ais-wisuda-bundle/zipball/eb1f0cf3d41531f9b6435d2d2aea81f3e35e76fa",
+                "reference": "eb1f0cf3d41531f9b6435d2d2aea81f3e35e76fa",
                 "shasum": ""
             },
             "require": {
@@ -1869,7 +1869,7 @@
             "keywords": [
                 "Wisuda Bundle"
             ],
-            "time": "2015-12-22 03:27:24"
+            "time": "2016-01-11 06:05:10"
         },
         {
             "name": "doctrine/annotations",
@@ -4266,16 +4266,16 @@
         },
         {
             "name": "twig/twig",
-            "version": "v1.23.1",
+            "version": "v1.23.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/twigphp/Twig.git",
-                "reference": "d9b6333ae8dd2c8e3fd256e127548def0bc614c6"
+                "reference": "ae53fc2c312fdee63773b75cb570304f85388b08"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/twigphp/Twig/zipball/d9b6333ae8dd2c8e3fd256e127548def0bc614c6",
-                "reference": "d9b6333ae8dd2c8e3fd256e127548def0bc614c6",
+                "url": "https://api.github.com/repos/twigphp/Twig/zipball/ae53fc2c312fdee63773b75cb570304f85388b08",
+                "reference": "ae53fc2c312fdee63773b75cb570304f85388b08",
                 "shasum": ""
             },
             "require": {
@@ -4323,7 +4323,7 @@
             "keywords": [
                 "templating"
             ],
-            "time": "2015-11-05 12:49:06"
+            "time": "2016-01-11 14:02:19"
         },
         {
             "name": "willdurand/jsonp-callback-validator",
