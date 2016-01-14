@@ -115,6 +115,13 @@ http://localhost/ais-web-service/web/app_dev.php/service/api/doc
 
 ```
 
+You also can find out the available url API by type this command:
+
+```
+$ php app/console debug:route | grep api
+
+```
+
 let's say we want to access the user API:
 
 ```
