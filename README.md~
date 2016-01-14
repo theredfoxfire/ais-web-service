@@ -104,7 +104,7 @@ password: 12345
 Before you get continue it's recomended to run app server by type this command:
 
 ```
-$ php app/console server:run
+php app/console server:run
 
 it will running the app on:
 
