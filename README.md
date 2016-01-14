@@ -190,7 +190,7 @@ localhost/ais-web-service/web/app_dev.php/oauth/v2/token?client_id=1_423usr7ce4a
 
 ```
 
-And here we the new access token:
+And here is the new access token:
 
 ```json
 
@@ -198,7 +198,7 @@ And here we the new access token:
 
 ```
 
-Ok well its litlle complex and if you want learn more about consuming API better for you to visit this page:
+Ok well its litle complex and if you want learn more about consuming API better for you to visit this page:
 
 [OAuth2 Explained: Part 3 - Using OAuth2 With Your Bare Hands](http://blog.tankist.de/blog/2013/07/18/oauth2-explained-part-3-using-oauth2-with-your-bare-hands/)
 
