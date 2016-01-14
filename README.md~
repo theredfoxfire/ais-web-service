@@ -3,7 +3,7 @@ AisWebService
 
 A system that provide Academic Information we name it AIS Academic Information System.
 
-# Clone This Bundle
+## Clone This Bundle
 
 Go to your working directory with your terminal (command line)
 
@@ -31,7 +31,7 @@ $ git clone https://github.com/theredfoxfire/ais-web-service.git
 
 Wait till the clone process is done.
 
-# Preparing Your Kit
+## Preparing Your Kit
 
 First thing you need is Composer.
 
@@ -56,7 +56,7 @@ $ php composer.phar update
 
 See the progress usually it's takes several minutes to be done.
 
-# Setting Up the Web Service
+## Setting Up the Web Service
 
 Ok, So everything is installed on our kit. To setting up the web service, first thing to do is
 
@@ -106,14 +106,14 @@ password: 12345
 
 ```
 
-# Start Consuming The API
+## Start Consuming The API
 
-## If everything done, you may find the API doc by access this url:
+# If everything done, you may find the API doc by access this url:
 
 ```
 http://localhost/ais-web-service/web/app_dev.php/service/api/doc
 
-```
+``
 
 let's say we want to access the user API:
 
@@ -127,7 +127,7 @@ Oops you get error message, because you need to be authenticated to access the A
 {"error":"access_denied","error_description":"OAuth2 authentication required"}
 
 ```
-## To access the API we need to registering OAuth client into our web service, just run this command:
+# To access the API we need to registering OAuth client into our web service, just run this command:
 
 ```
 $ php app/console ais:oauth-server:client:create --redirect-uri="FILLED_WITH_YOUR_CLIENT_HOST_URL" --grant-type="authorization_code" --grant-type="password" --grant-type="refresh_token" --grant-type="token" --grant-type="client_credentials"
@@ -141,7 +141,7 @@ Added a new client with public id 1_423usr7ce4aocg8g0ckkgsgw8oosss8kggwgoow0k40w
 
 ```
 
-## Get Authorization code, just access from your browser URL like:
+# Get Authorization code, just access from your browser URL like:
 
 ```
 YOUR_WEB_SERVICE_PROVIDER_HOST/oauth/v2/token?client_id=CLIENT_ID&client_secret=CLIENT_SECRET&grant_type=password&username={USERNAME}&password={PASSWORD}
@@ -193,7 +193,6 @@ localhost/ais-web-service/web/app_dev.php/oauth/v2/token?client_id=1_423usr7ce4a
 And here we the new access token:
 
 ```json
-
 {"access_token":"ZDY1OWFiODQ3ZjkwYmRlMGVlOGQwZjM2OGZjNmRiNjNiNmVlNzU1MzVlYmQzYjIwNDNlOWE0M2ZjNmJjZGMzOQ","expires_in":3600,"token_type":"bearer","scope":"user","refresh_token":"ZDgzNWI2N2I0MGI2MWM2MDdjY2E2NTc5ZDIwMmEwMTg2MWU2ZDIwMTkyZjJkNGE2NmZlNTIxZmI3YjQ3MGYwYQ"}
 
 ```
