@@ -1738,12 +1738,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/theredfoxfire/ais-user-bundle.git",
-                "reference": "832da5a7cd87618df6a40a46158c3bb411dce6fe"
+                "reference": "ace02032bd7097ef280d3357e04944a07b9fdb5f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/theredfoxfire/ais-user-bundle/zipball/832da5a7cd87618df6a40a46158c3bb411dce6fe",
-                "reference": "832da5a7cd87618df6a40a46158c3bb411dce6fe",
+                "url": "https://api.github.com/repos/theredfoxfire/ais-user-bundle/zipball/ace02032bd7097ef280d3357e04944a07b9fdb5f",
+                "reference": "ace02032bd7097ef280d3357e04944a07b9fdb5f",
                 "shasum": ""
             },
             "require": {
@@ -1799,7 +1799,7 @@
             "keywords": [
                 "user bundle"
             ],
-            "time": "2016-01-13 10:50:42"
+            "time": "2016-01-14 04:02:27"
         },
         {
             "name": "ais/wisudabundle",
