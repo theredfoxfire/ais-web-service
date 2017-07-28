@@ -202,8 +202,9 @@ Ok well its litle complex and if you want learn more about consuming API better 
 [OAuth2 Explained: Part 3 - Using OAuth2 With Your Bare Hands](http://blog.tankist.de/blog/2013/07/18/oauth2-explained-part-3-using-oauth2-with-your-bare-hands/)
 
 ## Join the development
-[dev-ais](https://github.com/theredfoxfire/dev-ais-api)
-[react-init](https://github.com/theredfoxfire/ais-web)
+The API development repo: [dev-ais](https://github.com/theredfoxfire/dev-ais-api)
+
+The client side development repo: [react-init](https://github.com/theredfoxfire/ais-web)
 
 ## Grab Your Coffee
 
